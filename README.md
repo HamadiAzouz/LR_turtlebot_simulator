@@ -231,10 +231,3 @@ python3 install/lr_ppo/lib/lr_ppo/train_rosi.py --maze maze_1.world --episodes 5
 python3 install/lr_ppo/lib/lr_ppo/evaluate_rosi.py --model models/rosi_ppo_maze_1_*/final_model.pt --episodes 10
 ```
 
-## License
-
-See [LICENSE](LICENSE) file.
-HEAD
-
-
- fcdea1476193a794a7981874dc243618aa925fbc
