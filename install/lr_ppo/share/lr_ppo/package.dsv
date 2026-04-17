@@ -1,0 +1,11 @@
+source;share/lr_ppo/hook/cmake_prefix_path.ps1
+source;share/lr_ppo/hook/cmake_prefix_path.dsv
+source;share/lr_ppo/hook/cmake_prefix_path.sh
+source;share/lr_ppo/hook/pythonpath.ps1
+source;share/lr_ppo/hook/pythonpath.dsv
+source;share/lr_ppo/hook/pythonpath.sh
+source;share/lr_ppo/local_setup.bash
+source;share/lr_ppo/local_setup.dsv
+source;share/lr_ppo/local_setup.ps1
+source;share/lr_ppo/local_setup.sh
+source;share/lr_ppo/local_setup.zsh

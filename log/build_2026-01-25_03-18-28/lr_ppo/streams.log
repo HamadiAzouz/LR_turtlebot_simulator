@@ -1,0 +1,52 @@
+[0.293s] Invoking command in '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo': AMENT_PREFIX_PATH=/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo -- -j20 -l20
+[1.036s] Built target ament_cmake_python_copy_lr_ppo
+[1.378s] running egg_info
+[1.403s] writing lr_ppo.egg-info/PKG-INFO
+[1.410s] writing dependency_links to lr_ppo.egg-info/dependency_links.txt
+[1.421s] writing top-level names to lr_ppo.egg-info/top_level.txt
+[1.505s] reading manifest file 'lr_ppo.egg-info/SOURCES.txt'
+[1.570s] writing manifest file 'lr_ppo.egg-info/SOURCES.txt'
+[1.610s] Built target ament_cmake_python_build_lr_ppo_egg
+[1.626s] Invoked command in '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo' returned '0': AMENT_PREFIX_PATH=/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo -- -j20 -l20
+[1.673s] Invoking command in '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo': AMENT_PREFIX_PATH=/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo
+[1.692s] -- Install configuration: ""
+[1.722s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/environment/pythonpath.sh
+[1.768s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/environment/pythonpath.dsv
+[1.810s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo-1.0.0-py3.12.egg-info
+[1.876s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo-1.0.0-py3.12.egg-info/dependency_links.txt
+[2.058s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo-1.0.0-py3.12.egg-info/PKG-INFO
+[2.271s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo-1.0.0-py3.12.egg-info/SOURCES.txt
+[2.467s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo-1.0.0-py3.12.egg-info/top_level.txt
+[2.663s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo
+[2.734s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo/environment.py
+[2.785s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo/networks.py
+[2.825s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo/ppo_agent.py
+[2.862s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo/utils.py
+[2.916s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo/__init__.py
+[3.176s] Listing '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo'...
+[3.221s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/lr_ppo/train_rosi.py
+[3.260s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/lr_ppo/evaluate_rosi.py
+[3.412s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/lr_ppo/test_environment.py
+[3.444s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/launch
+[3.498s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/launch/evaluate.launch.py
+[3.544s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/launch/train.launch.py
+[3.578s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/config
+[3.643s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/config/training_config.yaml
+[3.680s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/models
+[3.736s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/models/README.md
+[3.805s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/ament_index/resource_index/package_run_dependencies/lr_ppo
+[3.862s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/ament_index/resource_index/parent_prefix_path/lr_ppo
+[3.906s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/environment/ament_prefix_path.sh
+[3.957s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/environment/ament_prefix_path.dsv
+[3.996s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/environment/path.sh
+[4.045s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/environment/path.dsv
+[4.105s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/local_setup.bash
+[4.167s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/local_setup.sh
+[4.207s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/local_setup.zsh
+[4.237s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/local_setup.dsv
+[4.265s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/package.dsv
+[4.392s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/ament_index/resource_index/packages/lr_ppo
+[4.430s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/cmake/lr_ppoConfig.cmake
+[4.457s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/cmake/lr_ppoConfig-version.cmake
+[4.499s] -- Up-to-date: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/package.xml
+[4.524s] Invoked command in '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo' returned '0': AMENT_PREFIX_PATH=/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo

@@ -1,0 +1,75 @@
+{
+  "episodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "rewards": [
+    85.94065917535656,
+    50.8999756637588,
+    50.899976887315184,
+    50.899976887315184,
+    50.899976887315184
+  ],
+  "lengths": [
+    500,
+    500,
+    500,
+    500,
+    500
+  ],
+  "successes": [
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "collisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "timeouts": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "path_lengths": [
+    1.2811130998224538,
+    3.1941123564123174e-06,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "min_distances_to_goal": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "aggregate": {
+    "mean_reward": 57.90811310021218,
+    "std_reward": 14.016273037572198,
+    "mean_length": 500.0,
+    "std_length": 0.0,
+    "success_rate": 0.0,
+    "collision_rate": 0.0,
+    "timeout_rate": 1.0,
+    "mean_path_length": 0.25622325878696206,
+    "n_episodes": 5
+  },
+  "model": "models/rosi_ppo_maze_2_20260125_051207/final_model.pt",
+  "maze": "maze_1.world",
+  "goal": [
+    2.0,
+    2.0
+  ]
+}

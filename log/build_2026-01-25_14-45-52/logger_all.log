@@ -1,0 +1,1366 @@
+[0.622s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'lr_ppo']
+[0.623s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['lr_ppo'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x742c0567af90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x742c057a76b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x742c057a76b0>>, mixin_verb=('build',))
+[0.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.721s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.721s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.721s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.722s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.722s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(eval_results) by extensions ['ignore', 'ignore_ament_install']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(eval_results) by extension 'ignore'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(eval_results) by extension 'ignore_ament_install'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(eval_results) by extensions ['colcon_pkg']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(eval_results) by extension 'colcon_pkg'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(eval_results) by extensions ['colcon_meta']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(eval_results) by extension 'colcon_meta'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(eval_results) by extensions ['ros']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(eval_results) by extension 'ros'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(eval_results) by extensions ['cmake', 'python']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(eval_results) by extension 'cmake'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(eval_results) by extension 'python'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(eval_results) by extensions ['python_setup_py']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(eval_results) by extension 'python_setup_py'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['ignore', 'ignore_ament_install']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'ignore'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'ignore_ament_install'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['colcon_pkg']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'colcon_pkg'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['colcon_meta']
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'colcon_meta'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['ros']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'ros'
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['cmake', 'python']
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'cmake'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'python'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['python_setup_py']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'python_setup_py'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752) by extensions ['ignore', 'ignore_ament_install']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752) by extension 'ignore'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752) by extension 'ignore_ament_install'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752) by extensions ['colcon_pkg']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752) by extension 'colcon_pkg'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752) by extensions ['colcon_meta']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752) by extension 'colcon_meta'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752) by extensions ['ros']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752) by extension 'ros'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752) by extensions ['cmake', 'python']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752) by extension 'cmake'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752) by extension 'python'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752) by extensions ['python_setup_py']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752) by extension 'python_setup_py'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752/tensorboard) by extension 'ignore'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752/tensorboard) by extension 'ignore_ament_install'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752/tensorboard) by extensions ['colcon_pkg']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752/tensorboard) by extension 'colcon_pkg'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752/tensorboard) by extensions ['colcon_meta']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752/tensorboard) by extension 'colcon_meta'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752/tensorboard) by extensions ['ros']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752/tensorboard) by extension 'ros'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752/tensorboard) by extensions ['cmake', 'python']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752/tensorboard) by extension 'cmake'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752/tensorboard) by extension 'python'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752/tensorboard) by extensions ['python_setup_py']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235752/tensorboard) by extension 'python_setup_py'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840) by extensions ['ignore', 'ignore_ament_install']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840) by extension 'ignore'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840) by extension 'ignore_ament_install'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840) by extensions ['colcon_pkg']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840) by extension 'colcon_pkg'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840) by extensions ['colcon_meta']
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840) by extension 'colcon_meta'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840) by extensions ['ros']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840) by extension 'ros'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840) by extensions ['cmake', 'python']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840) by extension 'cmake'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840) by extension 'python'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840) by extensions ['python_setup_py']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840) by extension 'python_setup_py'
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840/tensorboard) by extension 'ignore'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840/tensorboard) by extension 'ignore_ament_install'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840/tensorboard) by extensions ['colcon_pkg']
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840/tensorboard) by extension 'colcon_pkg'
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840/tensorboard) by extensions ['colcon_meta']
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840/tensorboard) by extension 'colcon_meta'
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840/tensorboard) by extensions ['ros']
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840/tensorboard) by extension 'ros'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840/tensorboard) by extensions ['cmake', 'python']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840/tensorboard) by extension 'cmake'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840/tensorboard) by extension 'python'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840/tensorboard) by extensions ['python_setup_py']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260124_235840/tensorboard) by extension 'python_setup_py'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439) by extensions ['ignore', 'ignore_ament_install']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439) by extension 'ignore'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439) by extension 'ignore_ament_install'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439) by extensions ['colcon_pkg']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439) by extension 'colcon_pkg'
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439) by extensions ['colcon_meta']
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439) by extension 'colcon_meta'
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439) by extensions ['ros']
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439) by extension 'ros'
+[1.160s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439) by extensions ['cmake', 'python']
+[1.160s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439) by extension 'cmake'
+[1.162s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439) by extension 'python'
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439) by extensions ['python_setup_py']
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439) by extension 'python_setup_py'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439/tensorboard) by extension 'ignore'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439/tensorboard) by extension 'ignore_ament_install'
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439/tensorboard) by extensions ['colcon_pkg']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439/tensorboard) by extension 'colcon_pkg'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439/tensorboard) by extensions ['colcon_meta']
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439/tensorboard) by extension 'colcon_meta'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439/tensorboard) by extensions ['ros']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439/tensorboard) by extension 'ros'
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439/tensorboard) by extensions ['cmake', 'python']
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439/tensorboard) by extension 'cmake'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439/tensorboard) by extension 'python'
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439/tensorboard) by extensions ['python_setup_py']
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001439/tensorboard) by extension 'python_setup_py'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813) by extensions ['ignore', 'ignore_ament_install']
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813) by extension 'ignore'
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813) by extension 'ignore_ament_install'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813) by extensions ['colcon_pkg']
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813) by extension 'colcon_pkg'
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813) by extensions ['colcon_meta']
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813) by extension 'colcon_meta'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813) by extensions ['ros']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813) by extension 'ros'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813) by extensions ['cmake', 'python']
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813) by extension 'cmake'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813) by extension 'python'
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813) by extensions ['python_setup_py']
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813) by extension 'python_setup_py'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813/tensorboard) by extension 'ignore'
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813/tensorboard) by extension 'ignore_ament_install'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813/tensorboard) by extensions ['colcon_pkg']
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813/tensorboard) by extension 'colcon_pkg'
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813/tensorboard) by extensions ['colcon_meta']
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813/tensorboard) by extension 'colcon_meta'
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813/tensorboard) by extensions ['ros']
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813/tensorboard) by extension 'ros'
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813/tensorboard) by extensions ['cmake', 'python']
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813/tensorboard) by extension 'cmake'
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813/tensorboard) by extension 'python'
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813/tensorboard) by extensions ['python_setup_py']
+[1.358s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_001813/tensorboard) by extension 'python_setup_py'
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003) by extensions ['ignore', 'ignore_ament_install']
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003) by extension 'ignore'
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003) by extension 'ignore_ament_install'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003) by extensions ['colcon_pkg']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003) by extension 'colcon_pkg'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003) by extensions ['colcon_meta']
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003) by extension 'colcon_meta'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003) by extensions ['ros']
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003) by extension 'ros'
+[1.400s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003) by extensions ['cmake', 'python']
+[1.401s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003) by extension 'cmake'
+[1.404s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003) by extension 'python'
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003) by extensions ['python_setup_py']
+[1.408s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003) by extension 'python_setup_py'
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003/tensorboard) by extension 'ignore'
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003/tensorboard) by extension 'ignore_ament_install'
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003/tensorboard) by extensions ['colcon_pkg']
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003/tensorboard) by extension 'colcon_pkg'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003/tensorboard) by extensions ['colcon_meta']
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003/tensorboard) by extension 'colcon_meta'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003/tensorboard) by extensions ['ros']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003/tensorboard) by extension 'ros'
+[1.470s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003/tensorboard) by extensions ['cmake', 'python']
+[1.470s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003/tensorboard) by extension 'cmake'
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003/tensorboard) by extension 'python'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003/tensorboard) by extensions ['python_setup_py']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_002003/tensorboard) by extension 'python_setup_py'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622) by extensions ['ignore', 'ignore_ament_install']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622) by extension 'ignore'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622) by extension 'ignore_ament_install'
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622) by extensions ['colcon_pkg']
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622) by extension 'colcon_pkg'
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622) by extensions ['colcon_meta']
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622) by extension 'colcon_meta'
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622) by extensions ['ros']
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622) by extension 'ros'
+[1.514s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622) by extensions ['cmake', 'python']
+[1.515s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622) by extension 'cmake'
+[1.518s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622) by extension 'python'
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622) by extensions ['python_setup_py']
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622) by extension 'python_setup_py'
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622/tensorboard) by extension 'ignore'
+[1.548s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622/tensorboard) by extension 'ignore_ament_install'
+[1.557s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622/tensorboard) by extensions ['colcon_pkg']
+[1.558s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622/tensorboard) by extension 'colcon_pkg'
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622/tensorboard) by extensions ['colcon_meta']
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622/tensorboard) by extension 'colcon_meta'
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622/tensorboard) by extensions ['ros']
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622/tensorboard) by extension 'ros'
+[1.590s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622/tensorboard) by extensions ['cmake', 'python']
+[1.590s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622/tensorboard) by extension 'cmake'
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622/tensorboard) by extension 'python'
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622/tensorboard) by extensions ['python_setup_py']
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005622/tensorboard) by extension 'python_setup_py'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728) by extensions ['ignore', 'ignore_ament_install']
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728) by extension 'ignore'
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728) by extension 'ignore_ament_install'
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728) by extensions ['colcon_pkg']
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728) by extension 'colcon_pkg'
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728) by extensions ['colcon_meta']
+[1.624s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728) by extension 'colcon_meta'
+[1.627s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728) by extensions ['ros']
+[1.628s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728) by extension 'ros'
+[1.640s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728) by extensions ['cmake', 'python']
+[1.640s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728) by extension 'cmake'
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728) by extension 'python'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728) by extensions ['python_setup_py']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728) by extension 'python_setup_py'
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728/tensorboard) by extension 'ignore'
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728/tensorboard) by extension 'ignore_ament_install'
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728/tensorboard) by extensions ['colcon_pkg']
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728/tensorboard) by extension 'colcon_pkg'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728/tensorboard) by extensions ['colcon_meta']
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728/tensorboard) by extension 'colcon_meta'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728/tensorboard) by extensions ['ros']
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728/tensorboard) by extension 'ros'
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728/tensorboard) by extensions ['cmake', 'python']
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728/tensorboard) by extension 'cmake'
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728/tensorboard) by extension 'python'
+[1.720s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728/tensorboard) by extensions ['python_setup_py']
+[1.720s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_005728/tensorboard) by extension 'python_setup_py'
+[1.729s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052) by extensions ['ignore', 'ignore_ament_install']
+[1.730s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052) by extension 'ignore'
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052) by extension 'ignore_ament_install'
+[1.737s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052) by extensions ['colcon_pkg']
+[1.737s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052) by extension 'colcon_pkg'
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052) by extensions ['colcon_meta']
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052) by extension 'colcon_meta'
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052) by extensions ['ros']
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052) by extension 'ros'
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052) by extensions ['cmake', 'python']
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052) by extension 'cmake'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052) by extension 'python'
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052) by extensions ['python_setup_py']
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052) by extension 'python_setup_py'
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052/tensorboard) by extension 'ignore'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052/tensorboard) by extension 'ignore_ament_install'
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052/tensorboard) by extensions ['colcon_pkg']
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052/tensorboard) by extension 'colcon_pkg'
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052/tensorboard) by extensions ['colcon_meta']
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052/tensorboard) by extension 'colcon_meta'
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052/tensorboard) by extensions ['ros']
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052/tensorboard) by extension 'ros'
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052/tensorboard) by extensions ['cmake', 'python']
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052/tensorboard) by extension 'cmake'
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052/tensorboard) by extension 'python'
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052/tensorboard) by extensions ['python_setup_py']
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011052/tensorboard) by extension 'python_setup_py'
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103) by extensions ['ignore', 'ignore_ament_install']
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103) by extension 'ignore'
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103) by extension 'ignore_ament_install'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103) by extensions ['colcon_pkg']
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103) by extension 'colcon_pkg'
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103) by extensions ['colcon_meta']
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103) by extension 'colcon_meta'
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103) by extensions ['ros']
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103) by extension 'ros'
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103) by extensions ['cmake', 'python']
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103) by extension 'cmake'
+[1.850s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103) by extension 'python'
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103) by extensions ['python_setup_py']
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103) by extension 'python_setup_py'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103/tensorboard) by extension 'ignore'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103/tensorboard) by extension 'ignore_ament_install'
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103/tensorboard) by extensions ['colcon_pkg']
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103/tensorboard) by extension 'colcon_pkg'
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103/tensorboard) by extensions ['colcon_meta']
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103/tensorboard) by extension 'colcon_meta'
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103/tensorboard) by extensions ['ros']
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103/tensorboard) by extension 'ros'
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103/tensorboard) by extensions ['cmake', 'python']
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103/tensorboard) by extension 'cmake'
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103/tensorboard) by extension 'python'
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103/tensorboard) by extensions ['python_setup_py']
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011103/tensorboard) by extension 'python_setup_py'
+[1.911s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308) by extensions ['ignore', 'ignore_ament_install']
+[1.912s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308) by extension 'ignore'
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308) by extension 'ignore_ament_install'
+[1.918s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308) by extensions ['colcon_pkg']
+[1.918s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308) by extension 'colcon_pkg'
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308) by extensions ['colcon_meta']
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308) by extension 'colcon_meta'
+[1.925s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308) by extensions ['ros']
+[1.925s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308) by extension 'ros'
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308) by extensions ['cmake', 'python']
+[1.938s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308) by extension 'cmake'
+[1.941s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308) by extension 'python'
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308) by extensions ['python_setup_py']
+[1.946s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308) by extension 'python_setup_py'
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308/tensorboard) by extension 'ignore'
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308/tensorboard) by extension 'ignore_ament_install'
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308/tensorboard) by extensions ['colcon_pkg']
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308/tensorboard) by extension 'colcon_pkg'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308/tensorboard) by extensions ['colcon_meta']
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308/tensorboard) by extension 'colcon_meta'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308/tensorboard) by extensions ['ros']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308/tensorboard) by extension 'ros'
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308/tensorboard) by extensions ['cmake', 'python']
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308/tensorboard) by extension 'cmake'
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308/tensorboard) by extension 'python'
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308/tensorboard) by extensions ['python_setup_py']
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_011308/tensorboard) by extension 'python_setup_py'
+[2.018s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423) by extensions ['ignore', 'ignore_ament_install']
+[2.018s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423) by extension 'ignore'
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423) by extension 'ignore_ament_install'
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423) by extensions ['colcon_pkg']
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423) by extension 'colcon_pkg'
+[2.028s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423) by extensions ['colcon_meta']
+[2.028s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423) by extension 'colcon_meta'
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423) by extensions ['ros']
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423) by extension 'ros'
+[2.039s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423) by extensions ['cmake', 'python']
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423) by extension 'cmake'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423) by extension 'python'
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423) by extensions ['python_setup_py']
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423) by extension 'python_setup_py'
+[2.059s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423/tensorboard) by extension 'ignore'
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423/tensorboard) by extension 'ignore_ament_install'
+[2.070s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423/tensorboard) by extensions ['colcon_pkg']
+[2.070s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423/tensorboard) by extension 'colcon_pkg'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423/tensorboard) by extensions ['colcon_meta']
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423/tensorboard) by extension 'colcon_meta'
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423/tensorboard) by extensions ['ros']
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423/tensorboard) by extension 'ros'
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423/tensorboard) by extensions ['cmake', 'python']
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423/tensorboard) by extension 'cmake'
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423/tensorboard) by extension 'python'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423/tensorboard) by extensions ['python_setup_py']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_012423/tensorboard) by extension 'python_setup_py'
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257) by extensions ['ignore', 'ignore_ament_install']
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257) by extension 'ignore'
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257) by extension 'ignore_ament_install'
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257) by extensions ['colcon_pkg']
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257) by extension 'colcon_pkg'
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257) by extensions ['colcon_meta']
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257) by extension 'colcon_meta'
+[2.127s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257) by extensions ['ros']
+[2.127s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257) by extension 'ros'
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257) by extensions ['cmake', 'python']
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257) by extension 'cmake'
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257) by extension 'python'
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257) by extensions ['python_setup_py']
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257) by extension 'python_setup_py'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257/tensorboard) by extension 'ignore'
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257/tensorboard) by extension 'ignore_ament_install'
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257/tensorboard) by extensions ['colcon_pkg']
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257/tensorboard) by extension 'colcon_pkg'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257/tensorboard) by extensions ['colcon_meta']
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257/tensorboard) by extension 'colcon_meta'
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257/tensorboard) by extensions ['ros']
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257/tensorboard) by extension 'ros'
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257/tensorboard) by extensions ['cmake', 'python']
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257/tensorboard) by extension 'cmake'
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257/tensorboard) by extension 'python'
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257/tensorboard) by extensions ['python_setup_py']
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013257/tensorboard) by extension 'python_setup_py'
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455) by extensions ['ignore', 'ignore_ament_install']
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455) by extension 'ignore'
+[2.182s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455) by extension 'ignore_ament_install'
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455) by extensions ['colcon_pkg']
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455) by extension 'colcon_pkg'
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455) by extensions ['colcon_meta']
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455) by extension 'colcon_meta'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455) by extensions ['ros']
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455) by extension 'ros'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455) by extensions ['cmake', 'python']
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455) by extension 'cmake'
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455) by extension 'python'
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455) by extensions ['python_setup_py']
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455) by extension 'python_setup_py'
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455/tensorboard) by extension 'ignore'
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455/tensorboard) by extension 'ignore_ament_install'
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455/tensorboard) by extensions ['colcon_pkg']
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455/tensorboard) by extension 'colcon_pkg'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455/tensorboard) by extensions ['colcon_meta']
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455/tensorboard) by extension 'colcon_meta'
+[2.242s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455/tensorboard) by extensions ['ros']
+[2.242s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455/tensorboard) by extension 'ros'
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455/tensorboard) by extensions ['cmake', 'python']
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455/tensorboard) by extension 'cmake'
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455/tensorboard) by extension 'python'
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455/tensorboard) by extensions ['python_setup_py']
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013455/tensorboard) by extension 'python_setup_py'
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908) by extensions ['ignore', 'ignore_ament_install']
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908) by extension 'ignore'
+[2.279s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908) by extension 'ignore_ament_install'
+[2.283s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908) by extensions ['colcon_pkg']
+[2.284s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908) by extension 'colcon_pkg'
+[2.286s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908) by extensions ['colcon_meta']
+[2.286s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908) by extension 'colcon_meta'
+[2.291s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908) by extensions ['ros']
+[2.291s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908) by extension 'ros'
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908) by extensions ['cmake', 'python']
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908) by extension 'cmake'
+[2.305s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908) by extension 'python'
+[2.308s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908) by extensions ['python_setup_py']
+[2.309s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908) by extension 'python_setup_py'
+[2.325s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[2.326s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908/tensorboard) by extension 'ignore'
+[2.329s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908/tensorboard) by extension 'ignore_ament_install'
+[2.337s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908/tensorboard) by extensions ['colcon_pkg']
+[2.337s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908/tensorboard) by extension 'colcon_pkg'
+[2.341s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908/tensorboard) by extensions ['colcon_meta']
+[2.342s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908/tensorboard) by extension 'colcon_meta'
+[2.351s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908/tensorboard) by extensions ['ros']
+[2.351s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908/tensorboard) by extension 'ros'
+[2.375s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908/tensorboard) by extensions ['cmake', 'python']
+[2.375s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908/tensorboard) by extension 'cmake'
+[2.379s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908/tensorboard) by extension 'python'
+[2.382s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908/tensorboard) by extensions ['python_setup_py']
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_013908/tensorboard) by extension 'python_setup_py'
+[2.393s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701) by extensions ['ignore', 'ignore_ament_install']
+[2.394s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701) by extension 'ignore'
+[2.397s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701) by extension 'ignore_ament_install'
+[2.402s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701) by extensions ['colcon_pkg']
+[2.402s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701) by extension 'colcon_pkg'
+[2.404s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701) by extensions ['colcon_meta']
+[2.404s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701) by extension 'colcon_meta'
+[2.408s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701) by extensions ['ros']
+[2.408s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701) by extension 'ros'
+[2.418s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701) by extensions ['cmake', 'python']
+[2.418s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701) by extension 'cmake'
+[2.422s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701) by extension 'python'
+[2.425s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701) by extensions ['python_setup_py']
+[2.425s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701) by extension 'python_setup_py'
+[2.440s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[2.440s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701/tensorboard) by extension 'ignore'
+[2.443s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701/tensorboard) by extension 'ignore_ament_install'
+[2.451s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701/tensorboard) by extensions ['colcon_pkg']
+[2.451s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701/tensorboard) by extension 'colcon_pkg'
+[2.455s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701/tensorboard) by extensions ['colcon_meta']
+[2.455s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701/tensorboard) by extension 'colcon_meta'
+[2.461s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701/tensorboard) by extensions ['ros']
+[2.461s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701/tensorboard) by extension 'ros'
+[2.477s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701/tensorboard) by extensions ['cmake', 'python']
+[2.478s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701/tensorboard) by extension 'cmake'
+[2.482s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701/tensorboard) by extension 'python'
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701/tensorboard) by extensions ['python_setup_py']
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014701/tensorboard) by extension 'python_setup_py'
+[2.498s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746) by extensions ['ignore', 'ignore_ament_install']
+[2.498s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746) by extension 'ignore'
+[2.501s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746) by extension 'ignore_ament_install'
+[2.505s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746) by extensions ['colcon_pkg']
+[2.505s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746) by extension 'colcon_pkg'
+[2.508s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746) by extensions ['colcon_meta']
+[2.509s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746) by extension 'colcon_meta'
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746) by extensions ['ros']
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746) by extension 'ros'
+[2.525s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746) by extensions ['cmake', 'python']
+[2.525s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746) by extension 'cmake'
+[2.528s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746) by extension 'python'
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746) by extensions ['python_setup_py']
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746) by extension 'python_setup_py'
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746/tensorboard) by extension 'ignore'
+[2.548s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746/tensorboard) by extension 'ignore_ament_install'
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746/tensorboard) by extensions ['colcon_pkg']
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746/tensorboard) by extension 'colcon_pkg'
+[2.562s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746/tensorboard) by extensions ['colcon_meta']
+[2.562s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746/tensorboard) by extension 'colcon_meta'
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746/tensorboard) by extensions ['ros']
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746/tensorboard) by extension 'ros'
+[2.594s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746/tensorboard) by extensions ['cmake', 'python']
+[2.594s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746/tensorboard) by extension 'cmake'
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746/tensorboard) by extension 'python'
+[2.602s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746/tensorboard) by extensions ['python_setup_py']
+[2.603s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_014746/tensorboard) by extension 'python_setup_py'
+[2.616s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551) by extensions ['ignore', 'ignore_ament_install']
+[2.616s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551) by extension 'ignore'
+[2.620s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551) by extension 'ignore_ament_install'
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551) by extensions ['colcon_pkg']
+[2.626s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551) by extension 'colcon_pkg'
+[2.629s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551) by extensions ['colcon_meta']
+[2.629s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551) by extension 'colcon_meta'
+[2.632s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551) by extensions ['ros']
+[2.633s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551) by extension 'ros'
+[2.644s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551) by extensions ['cmake', 'python']
+[2.645s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551) by extension 'cmake'
+[2.647s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551) by extension 'python'
+[2.650s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551) by extensions ['python_setup_py']
+[2.650s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551) by extension 'python_setup_py'
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551/tensorboard) by extension 'ignore'
+[2.669s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551/tensorboard) by extension 'ignore_ament_install'
+[2.676s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551/tensorboard) by extensions ['colcon_pkg']
+[2.676s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551/tensorboard) by extension 'colcon_pkg'
+[2.679s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551/tensorboard) by extensions ['colcon_meta']
+[2.679s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551/tensorboard) by extension 'colcon_meta'
+[2.687s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551/tensorboard) by extensions ['ros']
+[2.687s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551/tensorboard) by extension 'ros'
+[2.701s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551/tensorboard) by extensions ['cmake', 'python']
+[2.702s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551/tensorboard) by extension 'cmake'
+[2.705s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551/tensorboard) by extension 'python'
+[2.707s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551/tensorboard) by extensions ['python_setup_py']
+[2.707s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_020551/tensorboard) by extension 'python_setup_py'
+[2.713s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108) by extensions ['ignore', 'ignore_ament_install']
+[2.713s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108) by extension 'ignore'
+[2.715s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108) by extension 'ignore_ament_install'
+[2.720s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108) by extensions ['colcon_pkg']
+[2.720s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108) by extension 'colcon_pkg'
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108) by extensions ['colcon_meta']
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108) by extension 'colcon_meta'
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108) by extensions ['ros']
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108) by extension 'ros'
+[2.737s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108) by extensions ['cmake', 'python']
+[2.738s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108) by extension 'cmake'
+[2.740s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108) by extension 'python'
+[2.742s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108) by extensions ['python_setup_py']
+[2.742s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108) by extension 'python_setup_py'
+[2.756s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[2.756s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108/tensorboard) by extension 'ignore'
+[2.760s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108/tensorboard) by extension 'ignore_ament_install'
+[2.767s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108/tensorboard) by extensions ['colcon_pkg']
+[2.767s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108/tensorboard) by extension 'colcon_pkg'
+[2.770s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108/tensorboard) by extensions ['colcon_meta']
+[2.771s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108/tensorboard) by extension 'colcon_meta'
+[2.779s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108/tensorboard) by extensions ['ros']
+[2.779s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108/tensorboard) by extension 'ros'
+[2.798s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108/tensorboard) by extensions ['cmake', 'python']
+[2.798s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108/tensorboard) by extension 'cmake'
+[2.801s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108/tensorboard) by extension 'python'
+[2.806s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108/tensorboard) by extensions ['python_setup_py']
+[2.806s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_021108/tensorboard) by extension 'python_setup_py'
+[2.816s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301) by extensions ['ignore', 'ignore_ament_install']
+[2.817s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301) by extension 'ignore'
+[2.819s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301) by extension 'ignore_ament_install'
+[2.825s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301) by extensions ['colcon_pkg']
+[2.825s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301) by extension 'colcon_pkg'
+[2.829s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301) by extensions ['colcon_meta']
+[2.830s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301) by extension 'colcon_meta'
+[2.834s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301) by extensions ['ros']
+[2.835s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301) by extension 'ros'
+[2.848s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301) by extensions ['cmake', 'python']
+[2.848s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301) by extension 'cmake'
+[2.852s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301) by extension 'python'
+[2.861s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301) by extensions ['python_setup_py']
+[2.862s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301) by extension 'python_setup_py'
+[2.877s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[2.877s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301/tensorboard) by extension 'ignore'
+[2.881s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301/tensorboard) by extension 'ignore_ament_install'
+[2.887s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301/tensorboard) by extensions ['colcon_pkg']
+[2.888s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301/tensorboard) by extension 'colcon_pkg'
+[2.891s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301/tensorboard) by extensions ['colcon_meta']
+[2.892s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301/tensorboard) by extension 'colcon_meta'
+[2.900s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301/tensorboard) by extensions ['ros']
+[2.900s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301/tensorboard) by extension 'ros'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301/tensorboard) by extensions ['cmake', 'python']
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301/tensorboard) by extension 'cmake'
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301/tensorboard) by extension 'python'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301/tensorboard) by extensions ['python_setup_py']
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_022301/tensorboard) by extension 'python_setup_py'
+[2.968s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628) by extensions ['ignore', 'ignore_ament_install']
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628) by extension 'ignore'
+[2.971s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628) by extension 'ignore_ament_install'
+[2.979s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628) by extensions ['colcon_pkg']
+[2.979s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628) by extension 'colcon_pkg'
+[2.982s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628) by extensions ['colcon_meta']
+[2.983s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628) by extension 'colcon_meta'
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628) by extensions ['ros']
+[2.989s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628) by extension 'ros'
+[3.004s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628) by extensions ['cmake', 'python']
+[3.005s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628) by extension 'cmake'
+[3.008s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628) by extension 'python'
+[3.011s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628) by extensions ['python_setup_py']
+[3.012s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628) by extension 'python_setup_py'
+[3.030s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[3.030s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628/tensorboard) by extension 'ignore'
+[3.035s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628/tensorboard) by extension 'ignore_ament_install'
+[3.043s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628/tensorboard) by extensions ['colcon_pkg']
+[3.044s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628/tensorboard) by extension 'colcon_pkg'
+[3.047s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628/tensorboard) by extensions ['colcon_meta']
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628/tensorboard) by extension 'colcon_meta'
+[3.056s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628/tensorboard) by extensions ['ros']
+[3.056s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628/tensorboard) by extension 'ros'
+[3.066s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628/tensorboard) by extensions ['cmake', 'python']
+[3.066s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628/tensorboard) by extension 'cmake'
+[3.071s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628/tensorboard) by extension 'python'
+[3.076s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628/tensorboard) by extensions ['python_setup_py']
+[3.076s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_023628/tensorboard) by extension 'python_setup_py'
+[3.089s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342) by extensions ['ignore', 'ignore_ament_install']
+[3.090s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342) by extension 'ignore'
+[3.092s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342) by extension 'ignore_ament_install'
+[3.096s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342) by extensions ['colcon_pkg']
+[3.096s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342) by extension 'colcon_pkg'
+[3.099s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342) by extensions ['colcon_meta']
+[3.100s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342) by extension 'colcon_meta'
+[3.103s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342) by extensions ['ros']
+[3.104s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342) by extension 'ros'
+[3.114s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342) by extensions ['cmake', 'python']
+[3.115s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342) by extension 'cmake'
+[3.117s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342) by extension 'python'
+[3.119s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342) by extensions ['python_setup_py']
+[3.119s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342) by extension 'python_setup_py'
+[3.135s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[3.135s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342/tensorboard) by extension 'ignore'
+[3.140s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342/tensorboard) by extension 'ignore_ament_install'
+[3.148s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342/tensorboard) by extensions ['colcon_pkg']
+[3.148s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342/tensorboard) by extension 'colcon_pkg'
+[3.152s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342/tensorboard) by extensions ['colcon_meta']
+[3.153s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342/tensorboard) by extension 'colcon_meta'
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342/tensorboard) by extensions ['ros']
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342/tensorboard) by extension 'ros'
+[3.177s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342/tensorboard) by extensions ['cmake', 'python']
+[3.177s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342/tensorboard) by extension 'cmake'
+[3.181s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342/tensorboard) by extension 'python'
+[3.184s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342/tensorboard) by extensions ['python_setup_py']
+[3.184s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_024342/tensorboard) by extension 'python_setup_py'
+[3.197s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209) by extensions ['ignore', 'ignore_ament_install']
+[3.198s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209) by extension 'ignore'
+[3.201s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209) by extension 'ignore_ament_install'
+[3.206s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209) by extensions ['colcon_pkg']
+[3.206s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209) by extension 'colcon_pkg'
+[3.209s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209) by extensions ['colcon_meta']
+[3.210s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209) by extension 'colcon_meta'
+[3.214s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209) by extensions ['ros']
+[3.214s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209) by extension 'ros'
+[3.225s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209) by extensions ['cmake', 'python']
+[3.226s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209) by extension 'cmake'
+[3.228s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209) by extension 'python'
+[3.230s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209) by extensions ['python_setup_py']
+[3.231s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209) by extension 'python_setup_py'
+[3.245s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[3.245s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209/tensorboard) by extension 'ignore'
+[3.248s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209/tensorboard) by extension 'ignore_ament_install'
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209/tensorboard) by extensions ['colcon_pkg']
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209/tensorboard) by extension 'colcon_pkg'
+[3.261s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209/tensorboard) by extensions ['colcon_meta']
+[3.261s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209/tensorboard) by extension 'colcon_meta'
+[3.269s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209/tensorboard) by extensions ['ros']
+[3.269s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209/tensorboard) by extension 'ros'
+[3.285s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209/tensorboard) by extensions ['cmake', 'python']
+[3.285s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209/tensorboard) by extension 'cmake'
+[3.289s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209/tensorboard) by extension 'python'
+[3.292s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209/tensorboard) by extensions ['python_setup_py']
+[3.292s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033209/tensorboard) by extension 'python_setup_py'
+[3.303s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721) by extensions ['ignore', 'ignore_ament_install']
+[3.303s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721) by extension 'ignore'
+[3.306s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721) by extension 'ignore_ament_install'
+[3.312s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721) by extensions ['colcon_pkg']
+[3.313s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721) by extension 'colcon_pkg'
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721) by extensions ['colcon_meta']
+[3.316s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721) by extension 'colcon_meta'
+[3.320s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721) by extensions ['ros']
+[3.321s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721) by extension 'ros'
+[3.334s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721) by extensions ['cmake', 'python']
+[3.335s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721) by extension 'cmake'
+[3.338s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721) by extension 'python'
+[3.343s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721) by extensions ['python_setup_py']
+[3.343s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721) by extension 'python_setup_py'
+[3.371s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[3.371s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721/tensorboard) by extension 'ignore'
+[3.375s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721/tensorboard) by extension 'ignore_ament_install'
+[3.381s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721/tensorboard) by extensions ['colcon_pkg']
+[3.381s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721/tensorboard) by extension 'colcon_pkg'
+[3.384s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721/tensorboard) by extensions ['colcon_meta']
+[3.385s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721/tensorboard) by extension 'colcon_meta'
+[3.391s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721/tensorboard) by extensions ['ros']
+[3.392s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721/tensorboard) by extension 'ros'
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721/tensorboard) by extensions ['cmake', 'python']
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721/tensorboard) by extension 'cmake'
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721/tensorboard) by extension 'python'
+[3.416s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721/tensorboard) by extensions ['python_setup_py']
+[3.416s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_033721/tensorboard) by extension 'python_setup_py'
+[3.425s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757) by extensions ['ignore', 'ignore_ament_install']
+[3.425s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757) by extension 'ignore'
+[3.427s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757) by extension 'ignore_ament_install'
+[3.432s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757) by extensions ['colcon_pkg']
+[3.433s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757) by extension 'colcon_pkg'
+[3.436s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757) by extensions ['colcon_meta']
+[3.436s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757) by extension 'colcon_meta'
+[3.440s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757) by extensions ['ros']
+[3.440s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757) by extension 'ros'
+[3.455s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757) by extensions ['cmake', 'python']
+[3.456s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757) by extension 'cmake'
+[3.458s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757) by extension 'python'
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757) by extensions ['python_setup_py']
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757) by extension 'python_setup_py'
+[3.473s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[3.473s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757/tensorboard) by extension 'ignore'
+[3.477s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757/tensorboard) by extension 'ignore_ament_install'
+[3.483s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757/tensorboard) by extensions ['colcon_pkg']
+[3.484s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757/tensorboard) by extension 'colcon_pkg'
+[3.488s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757/tensorboard) by extensions ['colcon_meta']
+[3.489s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757/tensorboard) by extension 'colcon_meta'
+[3.497s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757/tensorboard) by extensions ['ros']
+[3.497s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757/tensorboard) by extension 'ros'
+[3.514s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757/tensorboard) by extensions ['cmake', 'python']
+[3.515s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757/tensorboard) by extension 'cmake'
+[3.518s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757/tensorboard) by extension 'python'
+[3.521s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757/tensorboard) by extensions ['python_setup_py']
+[3.521s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034757/tensorboard) by extension 'python_setup_py'
+[3.537s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930) by extensions ['ignore', 'ignore_ament_install']
+[3.538s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930) by extension 'ignore'
+[3.541s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930) by extension 'ignore_ament_install'
+[3.547s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930) by extensions ['colcon_pkg']
+[3.547s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930) by extension 'colcon_pkg'
+[3.551s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930) by extensions ['colcon_meta']
+[3.551s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930) by extension 'colcon_meta'
+[3.567s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930) by extensions ['ros']
+[3.570s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930) by extension 'ros'
+[3.598s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930) by extensions ['cmake', 'python']
+[3.608s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930) by extension 'cmake'
+[3.612s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930) by extension 'python'
+[3.615s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930) by extensions ['python_setup_py']
+[3.616s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930) by extension 'python_setup_py'
+[3.640s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[3.640s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930/tensorboard) by extension 'ignore'
+[3.643s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930/tensorboard) by extension 'ignore_ament_install'
+[3.650s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930/tensorboard) by extensions ['colcon_pkg']
+[3.650s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930/tensorboard) by extension 'colcon_pkg'
+[3.656s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930/tensorboard) by extensions ['colcon_meta']
+[3.657s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930/tensorboard) by extension 'colcon_meta'
+[3.664s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930/tensorboard) by extensions ['ros']
+[3.665s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930/tensorboard) by extension 'ros'
+[3.685s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930/tensorboard) by extensions ['cmake', 'python']
+[3.685s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930/tensorboard) by extension 'cmake'
+[3.689s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930/tensorboard) by extension 'python'
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930/tensorboard) by extensions ['python_setup_py']
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_034930/tensorboard) by extension 'python_setup_py'
+[3.704s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741) by extensions ['ignore', 'ignore_ament_install']
+[3.704s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741) by extension 'ignore'
+[3.706s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741) by extension 'ignore_ament_install'
+[3.711s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741) by extensions ['colcon_pkg']
+[3.711s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741) by extension 'colcon_pkg'
+[3.714s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741) by extensions ['colcon_meta']
+[3.714s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741) by extension 'colcon_meta'
+[3.717s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741) by extensions ['ros']
+[3.718s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741) by extension 'ros'
+[3.730s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741) by extensions ['cmake', 'python']
+[3.730s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741) by extension 'cmake'
+[3.732s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741) by extension 'python'
+[3.735s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741) by extensions ['python_setup_py']
+[3.735s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741) by extension 'python_setup_py'
+[3.750s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[3.751s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741/tensorboard) by extension 'ignore'
+[3.754s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741/tensorboard) by extension 'ignore_ament_install'
+[3.760s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741/tensorboard) by extensions ['colcon_pkg']
+[3.760s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741/tensorboard) by extension 'colcon_pkg'
+[3.763s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741/tensorboard) by extensions ['colcon_meta']
+[3.763s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741/tensorboard) by extension 'colcon_meta'
+[3.771s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741/tensorboard) by extensions ['ros']
+[3.771s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741/tensorboard) by extension 'ros'
+[3.788s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741/tensorboard) by extensions ['cmake', 'python']
+[3.788s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741/tensorboard) by extension 'cmake'
+[3.791s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741/tensorboard) by extension 'python'
+[3.794s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741/tensorboard) by extensions ['python_setup_py']
+[3.795s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_035741/tensorboard) by extension 'python_setup_py'
+[3.806s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128) by extensions ['ignore', 'ignore_ament_install']
+[3.807s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128) by extension 'ignore'
+[3.809s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128) by extension 'ignore_ament_install'
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128) by extensions ['colcon_pkg']
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128) by extension 'colcon_pkg'
+[3.816s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128) by extensions ['colcon_meta']
+[3.817s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128) by extension 'colcon_meta'
+[3.820s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128) by extensions ['ros']
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128) by extension 'ros'
+[3.831s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128) by extensions ['cmake', 'python']
+[3.832s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128) by extension 'cmake'
+[3.834s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128) by extension 'python'
+[3.837s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128) by extensions ['python_setup_py']
+[3.838s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128) by extension 'python_setup_py'
+[3.853s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[3.854s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128/tensorboard) by extension 'ignore'
+[3.857s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128/tensorboard) by extension 'ignore_ament_install'
+[3.866s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128/tensorboard) by extensions ['colcon_pkg']
+[3.866s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128/tensorboard) by extension 'colcon_pkg'
+[3.869s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128/tensorboard) by extensions ['colcon_meta']
+[3.869s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128/tensorboard) by extension 'colcon_meta'
+[3.879s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128/tensorboard) by extensions ['ros']
+[3.879s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128/tensorboard) by extension 'ros'
+[3.901s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128/tensorboard) by extensions ['cmake', 'python']
+[3.902s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128/tensorboard) by extension 'cmake'
+[3.908s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128/tensorboard) by extension 'python'
+[3.913s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128/tensorboard) by extensions ['python_setup_py']
+[3.914s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040128/tensorboard) by extension 'python_setup_py'
+[3.926s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613) by extensions ['ignore', 'ignore_ament_install']
+[3.926s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613) by extension 'ignore'
+[3.930s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613) by extension 'ignore_ament_install'
+[3.934s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613) by extensions ['colcon_pkg']
+[3.935s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613) by extension 'colcon_pkg'
+[3.937s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613) by extensions ['colcon_meta']
+[3.937s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613) by extension 'colcon_meta'
+[3.942s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613) by extensions ['ros']
+[3.942s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613) by extension 'ros'
+[3.955s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613) by extensions ['cmake', 'python']
+[3.956s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613) by extension 'cmake'
+[3.958s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613) by extension 'python'
+[3.961s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613) by extensions ['python_setup_py']
+[3.961s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613) by extension 'python_setup_py'
+[3.976s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[3.976s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613/tensorboard) by extension 'ignore'
+[3.979s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613/tensorboard) by extension 'ignore_ament_install'
+[3.986s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613/tensorboard) by extensions ['colcon_pkg']
+[3.986s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613/tensorboard) by extension 'colcon_pkg'
+[3.990s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613/tensorboard) by extensions ['colcon_meta']
+[3.990s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613/tensorboard) by extension 'colcon_meta'
+[3.998s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613/tensorboard) by extensions ['ros']
+[3.998s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613/tensorboard) by extension 'ros'
+[4.014s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613/tensorboard) by extensions ['cmake', 'python']
+[4.014s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613/tensorboard) by extension 'cmake'
+[4.018s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613/tensorboard) by extension 'python'
+[4.023s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613/tensorboard) by extensions ['python_setup_py']
+[4.023s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_040613/tensorboard) by extension 'python_setup_py'
+[4.040s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735) by extensions ['ignore', 'ignore_ament_install']
+[4.041s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735) by extension 'ignore'
+[4.043s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735) by extension 'ignore_ament_install'
+[4.047s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735) by extensions ['colcon_pkg']
+[4.047s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735) by extension 'colcon_pkg'
+[4.050s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735) by extensions ['colcon_meta']
+[4.050s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735) by extension 'colcon_meta'
+[4.054s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735) by extensions ['ros']
+[4.055s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735) by extension 'ros'
+[4.066s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735) by extensions ['cmake', 'python']
+[4.066s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735) by extension 'cmake'
+[4.069s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735) by extension 'python'
+[4.071s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735) by extensions ['python_setup_py']
+[4.072s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735) by extension 'python_setup_py'
+[4.087s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[4.087s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735/tensorboard) by extension 'ignore'
+[4.091s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735/tensorboard) by extension 'ignore_ament_install'
+[4.099s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735/tensorboard) by extensions ['colcon_pkg']
+[4.100s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735/tensorboard) by extension 'colcon_pkg'
+[4.104s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735/tensorboard) by extensions ['colcon_meta']
+[4.104s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735/tensorboard) by extension 'colcon_meta'
+[4.112s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735/tensorboard) by extensions ['ros']
+[4.113s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735/tensorboard) by extension 'ros'
+[4.127s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735/tensorboard) by extensions ['cmake', 'python']
+[4.128s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735/tensorboard) by extension 'cmake'
+[4.131s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735/tensorboard) by extension 'python'
+[4.134s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735/tensorboard) by extensions ['python_setup_py']
+[4.134s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_041735/tensorboard) by extension 'python_setup_py'
+[4.147s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005) by extensions ['ignore', 'ignore_ament_install']
+[4.147s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005) by extension 'ignore'
+[4.150s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005) by extension 'ignore_ament_install'
+[4.155s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005) by extensions ['colcon_pkg']
+[4.156s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005) by extension 'colcon_pkg'
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005) by extensions ['colcon_meta']
+[4.159s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005) by extension 'colcon_meta'
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005) by extensions ['ros']
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005) by extension 'ros'
+[4.177s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005) by extensions ['cmake', 'python']
+[4.177s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005) by extension 'cmake'
+[4.180s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005) by extension 'python'
+[4.183s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005) by extensions ['python_setup_py']
+[4.183s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005) by extension 'python_setup_py'
+[4.198s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[4.199s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005/tensorboard) by extension 'ignore'
+[4.203s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005/tensorboard) by extension 'ignore_ament_install'
+[4.210s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005/tensorboard) by extensions ['colcon_pkg']
+[4.210s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005/tensorboard) by extension 'colcon_pkg'
+[4.215s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005/tensorboard) by extensions ['colcon_meta']
+[4.215s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005/tensorboard) by extension 'colcon_meta'
+[4.223s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005/tensorboard) by extensions ['ros']
+[4.223s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005/tensorboard) by extension 'ros'
+[4.239s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005/tensorboard) by extensions ['cmake', 'python']
+[4.239s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005/tensorboard) by extension 'cmake'
+[4.244s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005/tensorboard) by extension 'python'
+[4.247s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005/tensorboard) by extensions ['python_setup_py']
+[4.247s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042005/tensorboard) by extension 'python_setup_py'
+[4.260s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634) by extensions ['ignore', 'ignore_ament_install']
+[4.261s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634) by extension 'ignore'
+[4.265s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634) by extension 'ignore_ament_install'
+[4.269s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634) by extensions ['colcon_pkg']
+[4.270s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634) by extension 'colcon_pkg'
+[4.273s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634) by extensions ['colcon_meta']
+[4.273s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634) by extension 'colcon_meta'
+[4.276s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634) by extensions ['ros']
+[4.276s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634) by extension 'ros'
+[4.289s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634) by extensions ['cmake', 'python']
+[4.289s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634) by extension 'cmake'
+[4.292s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634) by extension 'python'
+[4.294s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634) by extensions ['python_setup_py']
+[4.294s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634) by extension 'python_setup_py'
+[4.310s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[4.310s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634/tensorboard) by extension 'ignore'
+[4.313s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634/tensorboard) by extension 'ignore_ament_install'
+[4.322s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634/tensorboard) by extensions ['colcon_pkg']
+[4.322s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634/tensorboard) by extension 'colcon_pkg'
+[4.327s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634/tensorboard) by extensions ['colcon_meta']
+[4.327s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634/tensorboard) by extension 'colcon_meta'
+[4.335s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634/tensorboard) by extensions ['ros']
+[4.335s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634/tensorboard) by extension 'ros'
+[4.354s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634/tensorboard) by extensions ['cmake', 'python']
+[4.354s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634/tensorboard) by extension 'cmake'
+[4.365s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634/tensorboard) by extension 'python'
+[4.369s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634/tensorboard) by extensions ['python_setup_py']
+[4.369s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_042634/tensorboard) by extension 'python_setup_py'
+[4.381s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630) by extensions ['ignore', 'ignore_ament_install']
+[4.381s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630) by extension 'ignore'
+[4.384s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630) by extension 'ignore_ament_install'
+[4.389s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630) by extensions ['colcon_pkg']
+[4.389s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630) by extension 'colcon_pkg'
+[4.394s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630) by extensions ['colcon_meta']
+[4.394s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630) by extension 'colcon_meta'
+[4.398s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630) by extensions ['ros']
+[4.398s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630) by extension 'ros'
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630) by extensions ['cmake', 'python']
+[4.410s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630) by extension 'cmake'
+[4.413s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630) by extension 'python'
+[4.415s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630) by extensions ['python_setup_py']
+[4.415s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630) by extension 'python_setup_py'
+[4.429s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[4.429s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630/tensorboard) by extension 'ignore'
+[4.433s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630/tensorboard) by extension 'ignore_ament_install'
+[4.441s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630/tensorboard) by extensions ['colcon_pkg']
+[4.441s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630/tensorboard) by extension 'colcon_pkg'
+[4.444s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630/tensorboard) by extensions ['colcon_meta']
+[4.445s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630/tensorboard) by extension 'colcon_meta'
+[4.453s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630/tensorboard) by extensions ['ros']
+[4.453s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630/tensorboard) by extension 'ros'
+[4.468s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630/tensorboard) by extensions ['cmake', 'python']
+[4.469s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630/tensorboard) by extension 'cmake'
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630/tensorboard) by extension 'python'
+[4.475s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630/tensorboard) by extensions ['python_setup_py']
+[4.476s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_043630/tensorboard) by extension 'python_setup_py'
+[4.487s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826) by extensions ['ignore', 'ignore_ament_install']
+[4.487s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826) by extension 'ignore'
+[4.490s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826) by extension 'ignore_ament_install'
+[4.494s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826) by extensions ['colcon_pkg']
+[4.494s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826) by extension 'colcon_pkg'
+[4.497s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826) by extensions ['colcon_meta']
+[4.498s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826) by extension 'colcon_meta'
+[4.502s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826) by extensions ['ros']
+[4.502s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826) by extension 'ros'
+[4.514s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826) by extensions ['cmake', 'python']
+[4.514s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826) by extension 'cmake'
+[4.518s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826) by extension 'python'
+[4.520s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826) by extensions ['python_setup_py']
+[4.520s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826) by extension 'python_setup_py'
+[4.534s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[4.535s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826/tensorboard) by extension 'ignore'
+[4.538s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826/tensorboard) by extension 'ignore_ament_install'
+[4.545s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826/tensorboard) by extensions ['colcon_pkg']
+[4.546s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826/tensorboard) by extension 'colcon_pkg'
+[4.549s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826/tensorboard) by extensions ['colcon_meta']
+[4.549s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826/tensorboard) by extension 'colcon_meta'
+[4.556s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826/tensorboard) by extensions ['ros']
+[4.557s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826/tensorboard) by extension 'ros'
+[4.575s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826/tensorboard) by extensions ['cmake', 'python']
+[4.576s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826/tensorboard) by extension 'cmake'
+[4.579s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826/tensorboard) by extension 'python'
+[4.583s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826/tensorboard) by extensions ['python_setup_py']
+[4.583s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_141826/tensorboard) by extension 'python_setup_py'
+[4.594s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325) by extensions ['ignore', 'ignore_ament_install']
+[4.594s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325) by extension 'ignore'
+[4.597s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325) by extension 'ignore_ament_install'
+[4.601s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325) by extensions ['colcon_pkg']
+[4.602s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325) by extension 'colcon_pkg'
+[4.604s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325) by extensions ['colcon_meta']
+[4.604s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325) by extension 'colcon_meta'
+[4.608s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325) by extensions ['ros']
+[4.608s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325) by extension 'ros'
+[4.621s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325) by extensions ['cmake', 'python']
+[4.622s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325) by extension 'cmake'
+[4.624s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325) by extension 'python'
+[4.626s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325) by extensions ['python_setup_py']
+[4.626s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325) by extension 'python_setup_py'
+[4.640s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[4.640s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325/tensorboard) by extension 'ignore'
+[4.643s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325/tensorboard) by extension 'ignore_ament_install'
+[4.650s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325/tensorboard) by extensions ['colcon_pkg']
+[4.650s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325/tensorboard) by extension 'colcon_pkg'
+[4.653s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325/tensorboard) by extensions ['colcon_meta']
+[4.653s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325/tensorboard) by extension 'colcon_meta'
+[4.668s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325/tensorboard) by extensions ['ros']
+[4.669s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325/tensorboard) by extension 'ros'
+[4.686s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325/tensorboard) by extensions ['cmake', 'python']
+[4.687s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325/tensorboard) by extension 'cmake'
+[4.691s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325/tensorboard) by extension 'python'
+[4.696s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325/tensorboard) by extensions ['python_setup_py']
+[4.696s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_142325/tensorboard) by extension 'python_setup_py'
+[4.712s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412) by extensions ['ignore', 'ignore_ament_install']
+[4.712s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412) by extension 'ignore'
+[4.715s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412) by extension 'ignore_ament_install'
+[4.719s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412) by extensions ['colcon_pkg']
+[4.719s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412) by extension 'colcon_pkg'
+[4.721s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412) by extensions ['colcon_meta']
+[4.722s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412) by extension 'colcon_meta'
+[4.726s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412) by extensions ['ros']
+[4.726s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412) by extension 'ros'
+[4.737s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412) by extensions ['cmake', 'python']
+[4.737s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412) by extension 'cmake'
+[4.739s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412) by extension 'python'
+[4.741s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412) by extensions ['python_setup_py']
+[4.741s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412) by extension 'python_setup_py'
+[4.756s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[4.757s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412/tensorboard) by extension 'ignore'
+[4.759s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412/tensorboard) by extension 'ignore_ament_install'
+[4.767s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412/tensorboard) by extensions ['colcon_pkg']
+[4.768s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412/tensorboard) by extension 'colcon_pkg'
+[4.771s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412/tensorboard) by extensions ['colcon_meta']
+[4.771s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412/tensorboard) by extension 'colcon_meta'
+[4.780s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412/tensorboard) by extensions ['ros']
+[4.780s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412/tensorboard) by extension 'ros'
+[4.797s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412/tensorboard) by extensions ['cmake', 'python']
+[4.797s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412/tensorboard) by extension 'cmake'
+[4.800s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412/tensorboard) by extension 'python'
+[4.804s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412/tensorboard) by extensions ['python_setup_py']
+[4.804s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_1_20260125_143412/tensorboard) by extension 'python_setup_py'
+[4.816s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249) by extensions ['ignore', 'ignore_ament_install']
+[4.816s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249) by extension 'ignore'
+[4.819s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249) by extension 'ignore_ament_install'
+[4.824s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249) by extensions ['colcon_pkg']
+[4.824s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249) by extension 'colcon_pkg'
+[4.826s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249) by extensions ['colcon_meta']
+[4.826s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249) by extension 'colcon_meta'
+[4.831s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249) by extensions ['ros']
+[4.831s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249) by extension 'ros'
+[4.842s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249) by extensions ['cmake', 'python']
+[4.842s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249) by extension 'cmake'
+[4.845s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249) by extension 'python'
+[4.848s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249) by extensions ['python_setup_py']
+[4.848s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249) by extension 'python_setup_py'
+[4.865s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[4.865s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249/tensorboard) by extension 'ignore'
+[4.877s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249/tensorboard) by extension 'ignore_ament_install'
+[4.886s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249/tensorboard) by extensions ['colcon_pkg']
+[4.888s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249/tensorboard) by extension 'colcon_pkg'
+[4.894s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249/tensorboard) by extensions ['colcon_meta']
+[4.895s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249/tensorboard) by extension 'colcon_meta'
+[4.905s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249/tensorboard) by extensions ['ros']
+[4.905s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249/tensorboard) by extension 'ros'
+[4.922s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249/tensorboard) by extensions ['cmake', 'python']
+[4.922s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249/tensorboard) by extension 'cmake'
+[4.926s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249/tensorboard) by extension 'python'
+[4.929s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249/tensorboard) by extensions ['python_setup_py']
+[4.929s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_050249/tensorboard) by extension 'python_setup_py'
+[4.944s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042) by extensions ['ignore', 'ignore_ament_install']
+[4.944s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042) by extension 'ignore'
+[4.946s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042) by extension 'ignore_ament_install'
+[4.950s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042) by extensions ['colcon_pkg']
+[4.951s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042) by extension 'colcon_pkg'
+[4.954s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042) by extensions ['colcon_meta']
+[4.954s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042) by extension 'colcon_meta'
+[4.957s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042) by extensions ['ros']
+[4.958s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042) by extension 'ros'
+[4.969s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042) by extensions ['cmake', 'python']
+[4.969s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042) by extension 'cmake'
+[4.972s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042) by extension 'python'
+[4.975s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042) by extensions ['python_setup_py']
+[4.975s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042) by extension 'python_setup_py'
+[4.989s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[4.990s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042/tensorboard) by extension 'ignore'
+[4.993s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042/tensorboard) by extension 'ignore_ament_install'
+[4.999s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042/tensorboard) by extensions ['colcon_pkg']
+[4.999s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042/tensorboard) by extension 'colcon_pkg'
+[5.002s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042/tensorboard) by extensions ['colcon_meta']
+[5.002s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042/tensorboard) by extension 'colcon_meta'
+[5.009s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042/tensorboard) by extensions ['ros']
+[5.010s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042/tensorboard) by extension 'ros'
+[5.027s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042/tensorboard) by extensions ['cmake', 'python']
+[5.027s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042/tensorboard) by extension 'cmake'
+[5.032s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042/tensorboard) by extension 'python'
+[5.038s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042/tensorboard) by extensions ['python_setup_py']
+[5.038s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051042/tensorboard) by extension 'python_setup_py'
+[5.052s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207) by extensions ['ignore', 'ignore_ament_install']
+[5.053s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207) by extension 'ignore'
+[5.055s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207) by extension 'ignore_ament_install'
+[5.059s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207) by extensions ['colcon_pkg']
+[5.060s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207) by extension 'colcon_pkg'
+[5.062s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207) by extensions ['colcon_meta']
+[5.062s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207) by extension 'colcon_meta'
+[5.066s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207) by extensions ['ros']
+[5.066s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207) by extension 'ros'
+[5.076s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207) by extensions ['cmake', 'python']
+[5.076s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207) by extension 'cmake'
+[5.079s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207) by extension 'python'
+[5.081s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207) by extensions ['python_setup_py']
+[5.081s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207) by extension 'python_setup_py'
+[5.097s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[5.097s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207/tensorboard) by extension 'ignore'
+[5.101s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207/tensorboard) by extension 'ignore_ament_install'
+[5.108s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207/tensorboard) by extensions ['colcon_pkg']
+[5.109s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207/tensorboard) by extension 'colcon_pkg'
+[5.112s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207/tensorboard) by extensions ['colcon_meta']
+[5.113s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207/tensorboard) by extension 'colcon_meta'
+[5.119s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207/tensorboard) by extensions ['ros']
+[5.119s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207/tensorboard) by extension 'ros'
+[5.136s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207/tensorboard) by extensions ['cmake', 'python']
+[5.136s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207/tensorboard) by extension 'cmake'
+[5.140s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207/tensorboard) by extension 'python'
+[5.143s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207/tensorboard) by extensions ['python_setup_py']
+[5.143s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_2_20260125_051207/tensorboard) by extension 'python_setup_py'
+[5.156s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636) by extensions ['ignore', 'ignore_ament_install']
+[5.156s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636) by extension 'ignore'
+[5.160s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636) by extension 'ignore_ament_install'
+[5.165s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636) by extensions ['colcon_pkg']
+[5.165s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636) by extension 'colcon_pkg'
+[5.168s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636) by extensions ['colcon_meta']
+[5.168s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636) by extension 'colcon_meta'
+[5.173s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636) by extensions ['ros']
+[5.173s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636) by extension 'ros'
+[5.185s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636) by extensions ['cmake', 'python']
+[5.185s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636) by extension 'cmake'
+[5.188s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636) by extension 'python'
+[5.191s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636) by extensions ['python_setup_py']
+[5.191s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636) by extension 'python_setup_py'
+[5.206s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636/tensorboard) by extensions ['ignore', 'ignore_ament_install']
+[5.206s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636/tensorboard) by extension 'ignore'
+[5.209s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636/tensorboard) by extension 'ignore_ament_install'
+[5.216s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636/tensorboard) by extensions ['colcon_pkg']
+[5.216s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636/tensorboard) by extension 'colcon_pkg'
+[5.219s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636/tensorboard) by extensions ['colcon_meta']
+[5.220s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636/tensorboard) by extension 'colcon_meta'
+[5.226s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636/tensorboard) by extensions ['ros']
+[5.227s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636/tensorboard) by extension 'ros'
+[5.241s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636/tensorboard) by extensions ['cmake', 'python']
+[5.241s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636/tensorboard) by extension 'cmake'
+[5.245s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636/tensorboard) by extension 'python'
+[5.248s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636/tensorboard) by extensions ['python_setup_py']
+[5.249s] Level 1:colcon.colcon_core.package_identification:_identify(logs/rosi_ppo_maze_3_20260125_132636/tensorboard) by extension 'python_setup_py'
+[5.256s] Level 1:colcon.colcon_core.package_identification:_identify(lr_ppo) by extensions ['ignore', 'ignore_ament_install']
+[5.256s] Level 1:colcon.colcon_core.package_identification:_identify(lr_ppo) by extension 'ignore'
+[5.258s] Level 1:colcon.colcon_core.package_identification:_identify(lr_ppo) by extension 'ignore_ament_install'
+[5.260s] Level 1:colcon.colcon_core.package_identification:_identify(lr_ppo) by extensions ['colcon_pkg']
+[5.260s] Level 1:colcon.colcon_core.package_identification:_identify(lr_ppo) by extension 'colcon_pkg'
+[5.262s] Level 1:colcon.colcon_core.package_identification:_identify(lr_ppo) by extensions ['colcon_meta']
+[5.263s] Level 1:colcon.colcon_core.package_identification:_identify(lr_ppo) by extension 'colcon_meta'
+[5.264s] Level 1:colcon.colcon_core.package_identification:_identify(lr_ppo) by extensions ['ros']
+[5.265s] Level 1:colcon.colcon_core.package_identification:_identify(lr_ppo) by extension 'ros'
+[5.287s] DEBUG:colcon.colcon_core.package_identification:Package 'lr_ppo' with type 'ros.ament_cmake' and name 'lr_ppo'
+[5.292s] Level 1:colcon.colcon_core.package_identification:_identify(lr_turtlebot_sim) by extensions ['ignore', 'ignore_ament_install']
+[5.292s] Level 1:colcon.colcon_core.package_identification:_identify(lr_turtlebot_sim) by extension 'ignore'
+[5.293s] Level 1:colcon.colcon_core.package_identification:_identify(lr_turtlebot_sim) by extension 'ignore_ament_install'
+[5.296s] Level 1:colcon.colcon_core.package_identification:_identify(lr_turtlebot_sim) by extensions ['colcon_pkg']
+[5.296s] Level 1:colcon.colcon_core.package_identification:_identify(lr_turtlebot_sim) by extension 'colcon_pkg'
+[5.297s] Level 1:colcon.colcon_core.package_identification:_identify(lr_turtlebot_sim) by extensions ['colcon_meta']
+[5.298s] Level 1:colcon.colcon_core.package_identification:_identify(lr_turtlebot_sim) by extension 'colcon_meta'
+[5.299s] Level 1:colcon.colcon_core.package_identification:_identify(lr_turtlebot_sim) by extensions ['ros']
+[5.300s] Level 1:colcon.colcon_core.package_identification:_identify(lr_turtlebot_sim) by extension 'ros'
+[5.317s] DEBUG:colcon.colcon_core.package_identification:Package 'lr_turtlebot_sim' with type 'ros.ament_cmake' and name 'lr_turtlebot_sim'
+[5.323s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['ignore', 'ignore_ament_install']
+[5.324s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ignore'
+[5.325s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ignore_ament_install'
+[5.329s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['colcon_pkg']
+[5.330s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'colcon_pkg'
+[5.332s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['colcon_meta']
+[5.332s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'colcon_meta'
+[5.334s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['ros']
+[5.334s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ros'
+[5.342s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['cmake', 'python']
+[5.342s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'cmake'
+[5.344s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'python'
+[5.346s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['python_setup_py']
+[5.346s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'python_setup_py'
+[5.356s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_043630) by extensions ['ignore', 'ignore_ament_install']
+[5.356s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_043630) by extension 'ignore'
+[5.359s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_043630) by extension 'ignore_ament_install'
+[5.364s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_043630) by extensions ['colcon_pkg']
+[5.364s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_043630) by extension 'colcon_pkg'
+[5.368s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_043630) by extensions ['colcon_meta']
+[5.368s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_043630) by extension 'colcon_meta'
+[5.373s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_043630) by extensions ['ros']
+[5.376s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_043630) by extension 'ros'
+[5.393s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_043630) by extensions ['cmake', 'python']
+[5.393s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_043630) by extension 'cmake'
+[5.396s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_043630) by extension 'python'
+[5.399s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_043630) by extensions ['python_setup_py']
+[5.399s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_043630) by extension 'python_setup_py'
+[5.410s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_141826) by extensions ['ignore', 'ignore_ament_install']
+[5.411s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_141826) by extension 'ignore'
+[5.413s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_141826) by extension 'ignore_ament_install'
+[5.418s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_141826) by extensions ['colcon_pkg']
+[5.418s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_141826) by extension 'colcon_pkg'
+[5.420s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_141826) by extensions ['colcon_meta']
+[5.421s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_141826) by extension 'colcon_meta'
+[5.424s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_141826) by extensions ['ros']
+[5.424s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_141826) by extension 'ros'
+[5.435s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_141826) by extensions ['cmake', 'python']
+[5.436s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_141826) by extension 'cmake'
+[5.438s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_141826) by extension 'python'
+[5.440s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_141826) by extensions ['python_setup_py']
+[5.440s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_141826) by extension 'python_setup_py'
+[5.454s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_142325) by extensions ['ignore', 'ignore_ament_install']
+[5.455s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_142325) by extension 'ignore'
+[5.457s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_142325) by extension 'ignore_ament_install'
+[5.460s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_142325) by extensions ['colcon_pkg']
+[5.460s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_142325) by extension 'colcon_pkg'
+[5.463s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_142325) by extensions ['colcon_meta']
+[5.463s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_142325) by extension 'colcon_meta'
+[5.467s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_142325) by extensions ['ros']
+[5.467s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_142325) by extension 'ros'
+[5.476s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_142325) by extensions ['cmake', 'python']
+[5.477s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_142325) by extension 'cmake'
+[5.479s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_142325) by extension 'python'
+[5.482s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_142325) by extensions ['python_setup_py']
+[5.482s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_142325) by extension 'python_setup_py'
+[7.343s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_143412) by extensions ['ignore', 'ignore_ament_install']
+[7.343s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_143412) by extension 'ignore'
+[7.346s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_143412) by extension 'ignore_ament_install'
+[7.349s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_143412) by extensions ['colcon_pkg']
+[7.349s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_143412) by extension 'colcon_pkg'
+[7.354s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_143412) by extensions ['colcon_meta']
+[7.354s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_143412) by extension 'colcon_meta'
+[7.358s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_143412) by extensions ['ros']
+[7.358s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_143412) by extension 'ros'
+[7.369s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_143412) by extensions ['cmake', 'python']
+[7.369s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_143412) by extension 'cmake'
+[7.372s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_143412) by extension 'python'
+[7.375s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_143412) by extensions ['python_setup_py']
+[7.375s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_1_20260125_143412) by extension 'python_setup_py'
+[7.385s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051042) by extensions ['ignore', 'ignore_ament_install']
+[7.385s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051042) by extension 'ignore'
+[7.387s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051042) by extension 'ignore_ament_install'
+[7.392s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051042) by extensions ['colcon_pkg']
+[7.392s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051042) by extension 'colcon_pkg'
+[7.394s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051042) by extensions ['colcon_meta']
+[7.395s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051042) by extension 'colcon_meta'
+[7.400s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051042) by extensions ['ros']
+[7.400s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051042) by extension 'ros'
+[7.411s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051042) by extensions ['cmake', 'python']
+[7.411s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051042) by extension 'cmake'
+[7.414s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051042) by extension 'python'
+[7.417s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051042) by extensions ['python_setup_py']
+[7.417s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051042) by extension 'python_setup_py'
+[7.428s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051207) by extensions ['ignore', 'ignore_ament_install']
+[7.429s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051207) by extension 'ignore'
+[7.431s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051207) by extension 'ignore_ament_install'
+[7.436s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051207) by extensions ['colcon_pkg']
+[7.437s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051207) by extension 'colcon_pkg'
+[7.440s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051207) by extensions ['colcon_meta']
+[7.440s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051207) by extension 'colcon_meta'
+[7.443s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051207) by extensions ['ros']
+[7.444s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051207) by extension 'ros'
+[7.454s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051207) by extensions ['cmake', 'python']
+[7.454s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051207) by extension 'cmake'
+[7.457s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051207) by extension 'python'
+[7.459s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051207) by extensions ['python_setup_py']
+[7.460s] Level 1:colcon.colcon_core.package_identification:_identify(models/rosi_ppo_maze_2_20260125_051207) by extension 'python_setup_py'
+[7.462s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[7.462s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[7.462s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[7.463s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[7.463s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[7.544s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'lr_turtlebot_sim' in 'lr_turtlebot_sim'
+[7.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[7.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[7.653s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install
+[7.654s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 306 installed packages in /opt/ros/jazzy
+[7.655s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[7.724s] Level 5:colcon.colcon_core.verb:set package 'lr_ppo' build argument 'cmake_args' from command line to 'None'
+[7.729s] Level 5:colcon.colcon_core.verb:set package 'lr_ppo' build argument 'cmake_target' from command line to 'None'
+[7.729s] Level 5:colcon.colcon_core.verb:set package 'lr_ppo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.730s] Level 5:colcon.colcon_core.verb:set package 'lr_ppo' build argument 'cmake_clean_cache' from command line to 'False'
+[7.731s] Level 5:colcon.colcon_core.verb:set package 'lr_ppo' build argument 'cmake_clean_first' from command line to 'False'
+[7.731s] Level 5:colcon.colcon_core.verb:set package 'lr_ppo' build argument 'cmake_force_configure' from command line to 'False'
+[7.731s] Level 5:colcon.colcon_core.verb:set package 'lr_ppo' build argument 'ament_cmake_args' from command line to 'None'
+[7.732s] Level 5:colcon.colcon_core.verb:set package 'lr_ppo' build argument 'catkin_cmake_args' from command line to 'None'
+[7.732s] Level 5:colcon.colcon_core.verb:set package 'lr_ppo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.732s] DEBUG:colcon.colcon_core.verb:Building package 'lr_ppo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo', 'merge_install': False, 'path': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/lr_ppo', 'symlink_install': False, 'test_result_base': None}
+[7.733s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[7.734s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[7.735s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/lr_ppo' with build type 'ament_cmake'
+[7.738s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/lr_ppo'
+[7.752s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.753s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.753s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo': CMAKE_PREFIX_PATH=/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim:/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo -- -j20 -l20
+[9.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo' returned '0': CMAKE_PREFIX_PATH=/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim:/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo -- -j20 -l20
+[10.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo': CMAKE_PREFIX_PATH=/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim:/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo
+[13.619s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lr_ppo)
+[13.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo' returned '0': CMAKE_PREFIX_PATH=/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim:/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo
+[13.635s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo' for CMake module files
+[13.844s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo' for CMake config files
+[14.128s] Level 1:colcon.colcon_core.shell:create_environment_hook('lr_ppo', 'cmake_prefix_path')
+[14.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/hook/cmake_prefix_path.ps1'
+[14.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/hook/cmake_prefix_path.dsv'
+[14.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/hook/cmake_prefix_path.sh'
+[14.257s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib'
+[14.266s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/bin'
+[14.270s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/pkgconfig/lr_ppo.pc'
+[14.275s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages'
+[14.281s] Level 1:colcon.colcon_core.shell:create_environment_hook('lr_ppo', 'pythonpath')
+[14.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/hook/pythonpath.ps1'
+[14.309s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/hook/pythonpath.dsv'
+[14.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/hook/pythonpath.sh'
+[14.380s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/bin'
+[14.384s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/package.ps1'
+[14.415s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/package.dsv'
+[14.443s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/package.sh'
+[14.470s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/package.bash'
+[14.498s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/package.zsh'
+[14.531s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/colcon-core/packages/lr_ppo)
+[14.588s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lr_ppo)
+[14.588s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo' for CMake module files
+[14.826s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo' for CMake config files
+[15.096s] Level 1:colcon.colcon_core.shell:create_environment_hook('lr_ppo', 'cmake_prefix_path')
+[15.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/hook/cmake_prefix_path.ps1'
+[15.137s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/hook/cmake_prefix_path.dsv'
+[15.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/hook/cmake_prefix_path.sh'
+[15.222s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib'
+[15.234s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/bin'
+[15.238s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/pkgconfig/lr_ppo.pc'
+[15.243s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages'
+[15.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('lr_ppo', 'pythonpath')
+[15.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/hook/pythonpath.ps1'
+[15.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/hook/pythonpath.dsv'
+[15.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/hook/pythonpath.sh'
+[15.354s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/bin'
+[15.358s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/package.ps1'
+[15.388s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/package.dsv'
+[15.408s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/package.sh'
+[15.435s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/package.bash'
+[15.464s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/package.zsh'
+[15.490s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/colcon-core/packages/lr_ppo)
+[15.512s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.513s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.513s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.513s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.655s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[15.656s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.656s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.657s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.659s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[15.660s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.661s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/local_setup.ps1'
+[15.675s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/_local_setup_util_ps1.py'
+[15.689s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/setup.ps1'
+[15.752s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/local_setup.sh'
+[15.765s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/_local_setup_util_sh.py'
+[15.779s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/setup.sh'
+[15.831s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/local_setup.bash'
+[15.839s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/setup.bash'
+[15.902s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/local_setup.zsh'
+[15.913s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/setup.zsh'

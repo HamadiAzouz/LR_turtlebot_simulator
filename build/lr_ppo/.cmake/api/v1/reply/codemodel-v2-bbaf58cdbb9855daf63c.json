@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-af182f658eec55c78bbb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lr_ppo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_lr_ppo_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_lr_ppo_egg-426de38e0d901153d490.json",
+					"name" : "ament_cmake_python_build_lr_ppo_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_lr_ppo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_lr_ppo-58bb0f95cb601ca4a008.json",
+					"name" : "ament_cmake_python_copy_lr_ppo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lr_ppo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lr_ppo_uninstall-809a063f78ce83a08001.json",
+					"name" : "lr_ppo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-68b735a20a4905a17c5d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo",
+		"source" : "/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/lr_ppo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

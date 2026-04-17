@@ -1,0 +1,88 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (24.5s)
+-- Generating done (0.7s)
+-- Build files have been written to: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo
+Built target ament_cmake_python_copy_lr_ppo
+running egg_info
+creating lr_ppo.egg-info
+writing lr_ppo.egg-info/PKG-INFO
+writing dependency_links to lr_ppo.egg-info/dependency_links.txt
+writing top-level names to lr_ppo.egg-info/top_level.txt
+writing manifest file 'lr_ppo.egg-info/SOURCES.txt'
+reading manifest file 'lr_ppo.egg-info/SOURCES.txt'
+writing manifest file 'lr_ppo.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_lr_ppo_egg
+-- Install configuration: ""
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/environment/pythonpath.sh
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/environment/pythonpath.dsv
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo-1.0.0-py3.12.egg-info
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo-1.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo-1.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo-1.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo-1.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo/environment.py
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo/networks.py
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo/ppo_agent.py
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo/utils.py
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo/__init__.py
+Listing '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo'...
+Compiling '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo/__init__.py'...
+Compiling '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo/environment.py'...
+Compiling '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo/networks.py'...
+Compiling '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo/ppo_agent.py'...
+Compiling '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo/utils.py'...
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/lr_ppo/train_rosi.py
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/lr_ppo/evaluate_rosi.py
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/lr_ppo/test_environment.py
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/launch
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/launch/evaluate.launch.py
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/launch/train.launch.py
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/config
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/config/training_config.yaml
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/models
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/models/README.md
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/ament_index/resource_index/package_run_dependencies/lr_ppo
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/ament_index/resource_index/parent_prefix_path/lr_ppo
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/environment/ament_prefix_path.sh
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/environment/ament_prefix_path.dsv
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/environment/path.sh
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/environment/path.dsv
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/local_setup.bash
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/local_setup.sh
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/local_setup.zsh
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/local_setup.dsv
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/package.dsv
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/ament_index/resource_index/packages/lr_ppo
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/cmake/lr_ppoConfig.cmake
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/cmake/lr_ppoConfig-version.cmake
+-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/package.xml

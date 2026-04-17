@@ -1,0 +1,11 @@
+{
+  "episode_rewards": [],
+  "episode_lengths": [],
+  "episode_successes": [],
+  "episode_collisions": [],
+  "policy_losses": [],
+  "value_losses": [],
+  "entropies": [],
+  "best_reward": -Infinity,
+  "best_success_rate": 0.0
+}

@@ -1,0 +1,105 @@
+# ROSI PPO Training Configuration
+# =================================
+# Default hyperparameters for training ROSI the TurtleBot3
+
+# Environment Settings
+environment:
+  num_lidar_samples: 24        # Downsampled LiDAR rays
+  lidar_max_range: 3.5         # Maximum LiDAR range (meters)
+  lidar_min_range: 0.12        # Minimum LiDAR range (meters)
+  
+  max_linear_velocity: 0.22    # TurtleBot3 Burger max speed (m/s)
+  max_angular_velocity: 2.84   # TurtleBot3 Burger max turn rate (rad/s)
+  
+  goal_threshold: 0.3          # Distance to consider goal reached (m)
+  collision_threshold: 0.18    # Distance to consider collision (m)
+  
+  max_episode_steps: 500       # Maximum steps per episode
+  step_duration: 0.1           # Seconds per step
+  
+  # Reward shaping
+  reward_goal: 100.0           # Reward for reaching goal
+  reward_collision: -100.0     # Penalty for collision
+  reward_progress_scale: 10.0  # Scale for progress toward goal
+  reward_time_penalty: -0.1    # Small penalty per timestep
+  reward_rotation_penalty: -0.05  # Penalty for spinning
+
+# PPO Hyperparameters
+ppo:
+  learning_rate: 0.0003        # Adam learning rate
+  gamma: 0.99                  # Discount factor
+  gae_lambda: 0.95             # GAE lambda
+  clip_ratio: 0.2              # PPO clip ratio
+  
+  n_epochs: 10                 # Epochs per PPO update
+  batch_size: 64               # Mini-batch size
+  rollout_length: 2048         # Steps before update
+  
+  value_coef: 0.5              # Value loss coefficient
+  entropy_coef: 0.01           # Entropy bonus coefficient
+  entropy_decay: 0.995         # Entropy coefficient decay
+  min_entropy_coef: 0.001      # Minimum entropy coefficient
+  
+  max_grad_norm: 0.5           # Gradient clipping
+  target_kl: 0.02              # KL divergence target for early stopping
+
+# Network Architecture
+network:
+  hidden_sizes: [256, 256]     # MLP hidden layer sizes
+  activation: "tanh"           # Activation function (tanh or relu)
+  separate_networks: false     # Use separate actor/critic networks
+  
+  log_std_init: -0.5           # Initial log std for action distribution
+  log_std_min: -20.0           # Minimum log std
+  log_std_max: 2.0             # Maximum log std
+
+# Training Settings
+training:
+  total_episodes: 2000         # Total training episodes
+  log_interval: 10             # Episodes between log prints
+  save_interval: 100           # Episodes between checkpoints
+  eval_interval: 100           # Episodes between evaluations
+  eval_episodes: 10            # Episodes per evaluation
+  
+  normalize_observations: false  # Running normalization of obs
+
+# Maze Configurations
+# Starting positions and goals for each maze
+mazes:
+  maze_1:
+    name: "Baby Steps"
+    start: [-2.0, -0.5]
+    goals:
+      - [2.0, 2.0]
+      - [4.0, 0.0]
+      - [2.0, -2.0]
+  
+  maze_2:
+    name: "Middle School Maze"
+    start: [-2.0, -0.5]
+    goals:
+      - [3.0, 3.0]
+      - [4.0, -3.0]
+      - [-3.0, 4.0]
+  
+  maze_3:
+    name: "Final Exam"
+    start: [-2.0, -0.5]
+    goals:
+      - [4.0, 4.0]
+      - [3.0, -4.0]
+      - [-4.0, 3.0]
+
+# Curriculum Learning (optional)
+curriculum:
+  enabled: false
+  stages:
+    - maze: "maze_1"
+      episodes: 500
+      goal_threshold: 0.5
+    - maze: "maze_2"
+      episodes: 500
+      goal_threshold: 0.4
+    - maze: "maze_3"
+      episodes: 1000
+      goal_threshold: 0.3

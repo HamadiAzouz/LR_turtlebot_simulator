@@ -1,0 +1,357 @@
+[0.183s] Invoking command in '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/lr_turtlebot_sim -DCMAKE_INSTALL_PREFIX=/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim
+[1.124s] -- The C compiler identification is GNU 13.3.0
+[2.652s] -- The CXX compiler identification is GNU 13.3.0
+[3.939s] -- Detecting C compiler ABI info
+[5.621s] -- Detecting C compiler ABI info - done
+[5.673s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.674s] -- Detecting C compile features
+[5.675s] -- Detecting C compile features - done
+[5.933s] -- Detecting CXX compiler ABI info
+[7.505s] -- Detecting CXX compiler ABI info - done
+[7.570s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.571s] -- Detecting CXX compile features
+[7.573s] -- Detecting CXX compile features - done
+[7.724s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[9.831s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[10.971s] -- Found ros_gz_sim: 1.0.16 (/opt/ros/jazzy/share/ros_gz_sim/cmake)
+[11.839s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[12.012s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[12.203s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.422s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.185s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[13.245s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[13.908s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[14.333s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[14.579s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[16.429s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[16.529s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[16.624s] -- Found gz_math_vendor: 0.0.8 (/opt/ros/jazzy/share/gz_math_vendor/cmake)
+[16.828s] -- Looking for gz-math7 -- found version 7.5.2
+[16.889s] -- Searching for dependencies of gz-math7
+[16.948s] -- Looking for gz-utils2 -- found version 2.2.1
+[16.951s] -- Searching for dependencies of gz-utils2
+[17.001s] -- Found gz_sim_vendor: 0.0.9 (/opt/ros/jazzy/share/gz_sim_vendor/cmake)
+[17.950s] -- Looking for gz-sim8 -- found version 8.10.0
+[17.951s] -- Searching for dependencies of gz-sim8
+[17.998s] -- Looking for sdformat14 -- found version 14.8.0
+[17.999s] -- Searching for dependencies of sdformat14
+[18.013s] -- Checking for module 'tinyxml2'
+[18.086s] --   Found tinyxml2, version 10.0.0
+[18.145s] -- Looking for gz-math7 -- found version 7.5.2
+[18.149s] -- Looking for gz-utils2 -- found version 2.2.1
+[18.150s] -- Searching for dependencies of gz-utils2
+[18.151s] -- Searching for <gz-utils2> component [cli]
+[18.201s] -- Looking for gz-utils2-cli -- found version 2.2.1
+[18.202s] -- Searching for dependencies of gz-utils2-cli
+[18.248s] -- Looking for gz-plugin2 -- found version 2.0.4
+[18.250s] -- Searching for dependencies of gz-plugin2
+[18.256s] -- Looking for gz-utils2 -- found version 2.2.1
+[18.258s] -- Searching for <gz-plugin2> component [loader]
+[18.306s] -- Looking for gz-plugin2-loader -- found version 2.0.4
+[18.307s] -- Searching for dependencies of gz-plugin2-loader
+[18.310s] -- Searching for <gz-plugin2> component [register]
+[18.360s] -- Looking for gz-plugin2-register -- found version 2.0.4
+[18.361s] -- Searching for dependencies of gz-plugin2-register
+[18.402s] -- Looking for gz-transport13 -- found version 13.5.0
+[18.403s] -- Searching for dependencies of gz-transport13
+[22.722s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") 
+[24.602s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[24.611s] -- Checking for module 'libzmq >= 4'
+[24.671s] --   Found libzmq, version 4.3.5
+[24.757s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[24.873s] -- Checking for module 'uuid'
+[24.941s] --   Found uuid, version 2.39.3
+[24.982s] -- Found UUID: TRUE  
+[24.985s] -- Looking for gz-utils2 -- found version 2.2.1
+[25.038s] -- Looking for gz-msgs10 -- found version 10.3.2
+[25.039s] -- Searching for dependencies of gz-msgs10
+[27.097s] -- Looking for gz-utils2 -- found version 2.2.1
+[27.100s] -- Looking for gz-math7 -- found version 7.5.2
+[27.124s] -- Searching for <gz-transport13> component [log]
+[27.162s] -- Looking for gz-transport13-log -- found version 13.5.0
+[27.163s] -- Searching for dependencies of gz-transport13-log
+[27.164s] -- Searching for <gz-transport13> component [parameters]
+[27.204s] -- Looking for gz-transport13-parameters -- found version 13.5.0
+[27.205s] -- Searching for dependencies of gz-transport13-parameters
+[27.210s] -- Looking for gz-msgs10 -- found version 10.3.2
+[27.257s] -- Looking for gz-common5 -- found version 5.7.1
+[27.259s] -- Searching for dependencies of gz-common5
+[27.261s] -- Looking for gz-utils2 -- found version 2.2.1
+[27.344s] -- Looking for dlfcn.h - found
+[27.418s] -- Looking for libdl - found
+[27.421s] -- Found DL: TRUE  
+[27.436s] -- Searching for <gz-common5> component [av]
+[27.477s] -- Looking for gz-common5-av -- found version 5.7.1
+[27.479s] -- Searching for dependencies of gz-common5-av
+[27.492s] -- Checking for module 'libswscale'
+[27.556s] --   Found libswscale, version 7.5.100
+[27.614s] -- Found SWSCALE: TRUE  
+[27.652s] -- Checking for module 'libavdevice >= 56.4.100'
+[27.731s] --   Found libavdevice, version 60.3.100
+[27.803s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[27.821s] -- Checking for module 'libavformat'
+[27.871s] --   Found libavformat, version 60.16.100
+[27.921s] -- Found AVFORMAT: TRUE  
+[27.932s] -- Checking for module 'libavcodec'
+[27.991s] --   Found libavcodec, version 60.31.102
+[28.048s] -- Found AVCODEC: TRUE  
+[28.063s] -- Checking for module 'libavutil'
+[28.113s] --   Found libavutil, version 58.29.100
+[28.159s] -- Found AVUTIL: TRUE  
+[28.164s] -- Searching for <gz-common5> component [events]
+[28.214s] -- Looking for gz-common5-events -- found version 5.7.1
+[28.216s] -- Searching for dependencies of gz-common5-events
+[28.222s] -- Looking for gz-math7 -- found version 7.5.2
+[28.224s] -- Searching for <gz-common5> component [graphics]
+[28.268s] -- Looking for gz-common5-graphics -- found version 5.7.1
+[28.269s] -- Searching for dependencies of gz-common5-graphics
+[28.272s] -- Looking for gz-math7 -- found version 7.5.2
+[28.324s] -- Found GzAssimp: TRUE (found version "5.3.0") 
+[28.326s] -- Searching for <gz-common5> component [io]
+[28.371s] -- Looking for gz-common5-io -- found version 5.7.1
+[28.373s] -- Searching for dependencies of gz-common5-io
+[28.375s] -- Searching for <gz-common5> component [profiler]
+[28.428s] -- Looking for gz-common5-profiler -- found version 5.7.1
+[28.430s] -- Searching for dependencies of gz-common5-profiler
+[28.482s] -- Looking for gz-fuel_tools9 -- found version 9.1.1
+[28.483s] -- Searching for dependencies of gz-fuel_tools9
+[30.793s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "8.5.0")  
+[30.857s] -- Checking for module 'jsoncpp'
+[30.911s] --   Found jsoncpp, version 1.9.5
+[30.958s] -- Found JSONCPP: TRUE  
+[32.993s] -- Checking for module 'yaml-0.1'
+[33.051s] --   Found yaml-0.1, version 0.2.5
+[33.107s] -- Found YAML: TRUE  
+[33.132s] -- Checking for module 'libzip'
+[33.202s] --   Found libzip, version 1.7.3
+[33.262s] -- Found ZIP: TRUE  
+[33.267s] -- Looking for gz-utils2 -- found version 2.2.1
+[33.273s] -- Looking for gz-common5 -- found version 5.7.1
+[33.276s] -- Searching for dependencies of gz-common5
+[33.277s] -- Looking for gz-utils2 -- found version 2.2.1
+[33.279s] -- Looking for dlfcn.h - found
+[33.280s] -- Looking for libdl - found
+[33.296s] -- Searching for <gz-common5> component [testing]
+[33.351s] -- Looking for gz-common5-testing -- found version 5.7.1
+[33.353s] -- Searching for dependencies of gz-common5-testing
+[33.364s] -- Looking for gz-math7 -- found version 7.5.2
+[33.368s] -- Looking for gz-msgs10 -- found version 10.3.2
+[33.422s] -- Looking for gz-gui8 -- found version 8.4.0
+[33.424s] -- Searching for dependencies of gz-gui8
+[35.453s] -- Looking for gz-utils2 -- found version 2.2.1
+[35.456s] -- Looking for gz-math7 -- found version 7.5.2
+[35.459s] -- Looking for gz-common5 -- found version 5.7.1
+[35.471s] -- Looking for gz-plugin2 -- found version 2.0.4
+[35.477s] -- Looking for gz-transport13 -- found version 13.5.0
+[35.551s] -- Looking for gz-rendering8 -- found version 8.2.2
+[35.552s] -- Searching for dependencies of gz-rendering8
+[35.555s] -- Looking for gz-math7 -- found version 7.5.2
+[35.558s] -- Searching for dependencies of gz-math7
+[35.562s] -- Looking for gz-utils2 -- found version 2.2.1
+[35.565s] -- Searching for <gz-math7> component [eigen3]
+[35.630s] -- Looking for gz-math7-eigen3 -- found version 7.5.2
+[35.631s] -- Searching for dependencies of gz-math7-eigen3
+[35.688s] -- Looking for gz-common5 -- found version 5.7.1
+[35.689s] -- Searching for dependencies of gz-common5
+[35.691s] -- Looking for gz-utils2 -- found version 2.2.1
+[35.694s] -- Looking for dlfcn.h - found
+[35.695s] -- Looking for libdl - found
+[35.711s] -- Searching for <gz-common5> component [graphics]
+[35.713s] -- Searching for <gz-common5> component [events]
+[35.715s] -- Searching for <gz-common5> component [geospatial]
+[35.757s] -- Looking for gz-common5-geospatial -- found version 5.7.1
+[35.759s] -- Searching for dependencies of gz-common5-geospatial
+[35.760s] -- Looking for gz-math7 -- found version 7.5.2
+[35.763s] -- Looking for gz-common5 -- found version 5.7.1
+[35.771s] -- Looking for gz-plugin2 -- found version 2.0.4
+[35.772s] -- Searching for dependencies of gz-plugin2
+[35.774s] -- Looking for gz-utils2 -- found version 2.2.1
+[35.775s] -- Searching for <gz-plugin2> component [all]
+[35.823s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.4
+[35.826s] -- Looking for gz-plugin2 -- found version 2.0.4
+[35.830s] -- Looking for gz-utils2 -- found version 2.2.1
+[37.206s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[37.213s] -- Looking for gz-msgs10 -- found version 10.3.2
+[38.023s] -- Looking for gz-physics7 -- found version 7.6.0
+[38.024s] -- Searching for dependencies of gz-physics7
+[38.025s] -- Looking for gz-common5 -- found version 5.7.1
+[38.030s] -- Looking for gz-math7 -- found version 7.5.2
+[38.034s] -- Looking for gz-plugin2 -- found version 2.0.4
+[38.037s] -- Looking for gz-utils2 -- found version 2.2.1
+[38.045s] -- Searching for <gz-physics7> component [heightmap]
+[38.110s] -- Looking for gz-physics7-heightmap -- found version 7.6.0
+[38.113s] -- Searching for dependencies of gz-physics7-heightmap
+[38.115s] -- Looking for gz-common5 -- found version 5.7.1
+[38.117s] -- Searching for <gz-physics7> component [mesh]
+[38.161s] -- Looking for gz-physics7-mesh -- found version 7.6.0
+[38.162s] -- Searching for dependencies of gz-physics7-mesh
+[38.163s] -- Looking for gz-common5 -- found version 5.7.1
+[38.164s] -- Searching for <gz-physics7> component [sdf]
+[38.209s] -- Looking for gz-physics7-sdf -- found version 7.6.0
+[38.210s] -- Searching for dependencies of gz-physics7-sdf
+[38.212s] -- Looking for sdformat14 -- found version 14.8.0
+[38.265s] -- Looking for gz-sensors8 -- found version 8.2.2
+[38.266s] -- Searching for dependencies of gz-sensors8
+[40.265s] -- Looking for gz-math7 -- found version 7.5.2
+[40.271s] -- Looking for gz-common5 -- found version 5.7.1
+[40.275s] -- Looking for gz-transport13 -- found version 13.5.0
+[40.278s] -- Looking for gz-rendering8 -- found version 8.2.2
+[40.282s] -- Looking for gz-msgs10 -- found version 10.3.2
+[40.289s] -- Looking for sdformat14 -- found version 14.8.0
+[40.291s] -- Searching for <gz-sensors8> component [air_pressure]
+[40.344s] -- Looking for gz-sensors8-air_pressure -- found version 8.2.2
+[40.346s] -- Searching for dependencies of gz-sensors8-air_pressure
+[40.347s] -- Searching for <gz-sensors8> component [air_speed]
+[40.394s] -- Looking for gz-sensors8-air_speed -- found version 8.2.2
+[40.395s] -- Searching for dependencies of gz-sensors8-air_speed
+[40.396s] -- Searching for <gz-sensors8> component [altimeter]
+[40.448s] -- Looking for gz-sensors8-altimeter -- found version 8.2.2
+[40.449s] -- Searching for dependencies of gz-sensors8-altimeter
+[40.452s] -- Searching for <gz-sensors8> component [imu]
+[40.500s] -- Looking for gz-sensors8-imu -- found version 8.2.2
+[40.502s] -- Searching for dependencies of gz-sensors8-imu
+[40.503s] -- Searching for <gz-sensors8> component [force_torque]
+[40.552s] -- Looking for gz-sensors8-force_torque -- found version 8.2.2
+[40.554s] -- Searching for dependencies of gz-sensors8-force_torque
+[40.555s] -- Searching for <gz-sensors8> component [logical_camera]
+[40.602s] -- Looking for gz-sensors8-logical_camera -- found version 8.2.2
+[40.603s] -- Searching for dependencies of gz-sensors8-logical_camera
+[40.604s] -- Searching for <gz-sensors8> component [magnetometer]
+[40.651s] -- Looking for gz-sensors8-magnetometer -- found version 8.2.2
+[40.652s] -- Searching for dependencies of gz-sensors8-magnetometer
+[40.656s] -- Searching for <gz-sensors8> component [navsat]
+[40.699s] -- Looking for gz-sensors8-navsat -- found version 8.2.2
+[40.700s] -- Searching for dependencies of gz-sensors8-navsat
+[40.701s] -- Searching for <gz-sensors8> component [dvl]
+[40.755s] -- Looking for gz-sensors8-dvl -- found version 8.2.2
+[40.756s] -- Searching for dependencies of gz-sensors8-dvl
+[40.758s] -- Looking for gz-sensors8 -- found version 8.2.2
+[40.759s] -- Searching for dependencies of gz-sensors8
+[42.817s] -- Looking for gz-math7 -- found version 7.5.2
+[42.821s] -- Looking for gz-common5 -- found version 5.7.1
+[42.824s] -- Looking for gz-transport13 -- found version 13.5.0
+[42.827s] -- Looking for gz-rendering8 -- found version 8.2.2
+[42.831s] -- Looking for gz-msgs10 -- found version 10.3.2
+[42.834s] -- Looking for sdformat14 -- found version 14.8.0
+[42.835s] -- Searching for <gz-sensors8> component [rendering]
+[42.888s] -- Looking for gz-sensors8-rendering -- found version 8.2.2
+[42.889s] -- Searching for dependencies of gz-sensors8-rendering
+[42.890s] -- Searching for <gz-sensors8> component [rendering]
+[42.892s] -- Searching for <gz-sensors8> component [lidar]
+[42.952s] -- Looking for gz-sensors8-lidar -- found version 8.2.2
+[42.954s] -- Searching for dependencies of gz-sensors8-lidar
+[42.956s] -- Looking for gz-sensors8 -- found version 8.2.2
+[42.959s] -- Searching for <gz-sensors8> component [gpu_lidar]
+[43.003s] -- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2
+[43.004s] -- Searching for dependencies of gz-sensors8-gpu_lidar
+[43.010s] -- Looking for gz-sensors8 -- found version 8.2.2
+[43.011s] -- Searching for <gz-sensors8> component [camera]
+[43.068s] -- Looking for gz-sensors8-camera -- found version 8.2.2
+[43.069s] -- Searching for dependencies of gz-sensors8-camera
+[43.072s] -- Looking for gz-sensors8 -- found version 8.2.2
+[43.073s] -- Searching for <gz-sensors8> component [boundingbox_camera]
+[43.120s] -- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2
+[43.121s] -- Searching for dependencies of gz-sensors8-boundingbox_camera
+[43.123s] -- Searching for <gz-sensors8> component [segmentation_camera]
+[43.165s] -- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2
+[43.169s] -- Searching for dependencies of gz-sensors8-segmentation_camera
+[43.171s] -- Searching for <gz-sensors8> component [depth_camera]
+[43.214s] -- Looking for gz-sensors8-depth_camera -- found version 8.2.2
+[43.215s] -- Searching for dependencies of gz-sensors8-depth_camera
+[43.218s] -- Looking for gz-sensors8 -- found version 8.2.2
+[43.220s] -- Searching for <gz-sensors8> component [rgbd_camera]
+[43.267s] -- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2
+[43.269s] -- Searching for dependencies of gz-sensors8-rgbd_camera
+[43.271s] -- Looking for gz-sensors8 -- found version 8.2.2
+[43.273s] -- Searching for <gz-sensors8> component [thermal_camera]
+[43.318s] -- Looking for gz-sensors8-thermal_camera -- found version 8.2.2
+[43.319s] -- Searching for dependencies of gz-sensors8-thermal_camera
+[43.322s] -- Looking for gz-sensors8 -- found version 8.2.2
+[43.324s] -- Searching for <gz-sensors8> component [wide_angle_camera]
+[43.377s] -- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2
+[43.378s] -- Searching for dependencies of gz-sensors8-wide_angle_camera
+[43.382s] -- Looking for gz-rendering8 -- found version 8.2.2
+[43.384s] -- Looking for gz-math7 -- found version 7.5.2
+[43.387s] -- Looking for gz-utils2 -- found version 2.2.1
+[45.362s] -- Looking for gz-plugin2 -- found version 2.0.4
+[45.447s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[46.288s] -- Configuring done (46.1s)
+[47.163s] -- Generating done (0.8s)
+[47.634s] -- Build files have been written to: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim
+[47.666s] Invoked command in '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/lr_turtlebot_sim -DCMAKE_INSTALL_PREFIX=/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim
+[47.689s] Invoking command in '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim -- -j20 -l20
+[47.952s] Invoked command in '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim -- -j20 -l20
+[48.027s] Invoking command in '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim
+[48.055s] -- Install configuration: ""
+[48.062s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//launch
+[48.120s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//launch/maze_1.launch.py
+[48.310s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//launch/maze_2.launch.py
+[48.505s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//launch/maze_3.launch.py
+[48.725s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//launch/robot_state_publisher.launch.py
+[48.937s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//launch/spawn_turtlebot3.launch.py
+[49.092s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//launch/turtlebot_in_maze.launch.py
+[49.254s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models
+[49.308s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_burger
+[49.396s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_burger/model-1_4.sdf
+[49.591s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_burger/model.config
+[49.792s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_burger/model.sdf
+[50.004s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_burger_cam
+[50.106s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_burger_cam/model-1_4.sdf
+[50.326s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_burger_cam/model.config
+[50.522s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_burger_cam/model.sdf
+[50.712s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common
+[50.802s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes
+[50.894s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/bases
+[51.024s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/bases/burger_base.stl
+[51.664s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/bases/waffle_base.stl
+[53.575s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/bases/waffle_pi_base.stl
+[54.635s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/burger_base.dae
+[54.859s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/lds.dae
+[55.093s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/r200.dae
+[55.317s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/sensors
+[55.433s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/sensors/astra.dae
+[56.451s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/sensors/astra.jpg
+[56.740s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/sensors/lds.stl
+[57.095s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/sensors/r200.dae
+[57.522s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/sensors/r200.jpg
+[57.800s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/tire.dae
+[58.053s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/waffle_base.dae
+[58.303s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/waffle_pi_base.dae
+[58.558s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/wheels
+[58.712s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/wheels/left_tire.stl
+[59.017s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/wheels/right_tire.stl
+[59.358s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/model.config
+[59.623s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//urdf
+[59.679s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//urdf/common_properties.urdf
+[59.851s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//urdf/turtlebot3_burger.urdf
+[59.974s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//urdf/turtlebot3_burger_cam.urdf
+[60.119s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//params
+[60.179s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//params/burger.yaml
+[60.326s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//params/turtlebot3_burger_bridge.yaml
+[60.470s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//params/turtlebot3_burger_cam_bridge.yaml
+[60.642s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//rviz
+[60.703s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//rviz/tb3_gazebo.rviz
+[60.863s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//scripts
+[60.923s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//scripts/teleop_keyboard.py
+[61.107s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//scripts/__init__.py
+[61.261s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//worlds
+[61.327s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//worlds/maze_1.world
+[61.465s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//worlds/maze_2.world
+[61.616s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//worlds/maze_3.world
+[61.824s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/lib/lr_turtlebot_sim/teleop_keyboard.py
+[62.000s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/ament_index/resource_index/package_run_dependencies/lr_turtlebot_sim
+[62.218s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/ament_index/resource_index/parent_prefix_path/lr_turtlebot_sim
+[62.390s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim/environment/ament_prefix_path.sh
+[62.505s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim/environment/ament_prefix_path.dsv
+[62.637s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim/environment/path.sh
+[62.813s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim/environment/path.dsv
+[62.952s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim/local_setup.bash
+[63.081s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim/local_setup.sh
+[63.224s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim/local_setup.zsh
+[63.365s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim/local_setup.dsv
+[63.497s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim/package.dsv
+[63.694s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/ament_index/resource_index/packages/lr_turtlebot_sim
+[63.894s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim/cmake/lr_turtlebot_simConfig.cmake
+[64.038s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim/cmake/lr_turtlebot_simConfig-version.cmake
+[64.207s] -- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim/package.xml
+[64.310s] Invoked command in '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim

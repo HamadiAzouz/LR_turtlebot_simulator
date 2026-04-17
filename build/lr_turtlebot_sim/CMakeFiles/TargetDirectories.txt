@@ -1,0 +1,9 @@
+/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim/CMakeFiles/uninstall.dir
+/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim/CMakeFiles/lr_turtlebot_sim_uninstall.dir
+/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim/CMakeFiles/test.dir
+/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim/CMakeFiles/edit_cache.dir
+/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim/CMakeFiles/rebuild_cache.dir
+/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim/CMakeFiles/list_install_components.dir
+/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim/CMakeFiles/install.dir
+/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim/CMakeFiles/install/local.dir
+/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim/CMakeFiles/install/strip.dir

@@ -1,0 +1,4 @@
+source;share/lr_ppo/local_setup.bash
+source;share/lr_ppo/local_setup.dsv
+source;share/lr_ppo/local_setup.sh
+source;share/lr_ppo/local_setup.zsh

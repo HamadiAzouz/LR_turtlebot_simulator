@@ -1,0 +1,1483 @@
+[0.000000] (-) TimerEvent: {}
+[0.000783] (lr_turtlebot_sim) JobQueued: {'identifier': 'lr_turtlebot_sim', 'dependencies': OrderedDict()}
+[0.001406] (lr_ppo) JobQueued: {'identifier': 'lr_ppo', 'dependencies': OrderedDict({'lr_turtlebot_sim': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim'})}
+[0.001897] (lr_turtlebot_sim) JobStarted: {'identifier': 'lr_turtlebot_sim'}
+[0.092944] (lr_turtlebot_sim) JobProgress: {'identifier': 'lr_turtlebot_sim', 'progress': 'cmake'}
+[0.095335] (-) TimerEvent: {}
+[0.165944] (lr_turtlebot_sim) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/lr_turtlebot_sim', '-DCMAKE_INSTALL_PREFIX=/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim'], 'cwd': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'azizmasseoudi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/azizmasseoudi/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/azizmasseoudi', 'OLDPWD': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1', 'TERM_PROGRAM_VERSION': '1.108.2', 'NVM_BIN': '/home/azizmasseoudi/.nvm/versions/node/v20.17.0/bin', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-7e5b7d79-c5e8-493e-8cee-1a4091e479fc.sock', 'NVM_INC': '/home/azizmasseoudi/.nvm/versions/node/v20.17.0/include/node', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/azizmasseoudi/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/azizmasseoudi/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'NVM_DIR': '/home/azizmasseoudi/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'azizmasseoudi', 'NAME': 'DESKTOP-DH8NA02', 'WSL_INTEROP': '/run/WSL/627_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'CLAUDE_CODE_SSE_PORT': '29140', 'TERM': 'xterm-256color', 'HISTCONTROL': 'ignorespace', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/azizmasseoudi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/azizmasseoudi/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/azizmasseoudi/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/home/azizmasseoudi/.local/bin:/home/azizmasseoudi/.nvm/versions/node/v20.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/DELL/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/DELL/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/Scripts:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/DELL/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/mnt/c/Users/DELL/AppData/Local/Android/Sdk/tools/bin:/mnt/c/Users/DELL/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Users/DELL/AppData/Local/Android/Sdk/emulator:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/DELL/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/DELL/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/DELL/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/DELL/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/DELL/AppData/Roaming/npm:/mnt/c/ffmpeg/bin:/mnt/c/Users/DELL/AppData/Local/Programs/Ollama:/mnt/c/Users/DELL/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-469ff7b2ca.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo:/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'PWD': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo:/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[0.195569] (-) TimerEvent: {}
+[0.296732] (-) TimerEvent: {}
+[0.397757] (-) TimerEvent: {}
+[0.498449] (-) TimerEvent: {}
+[0.599569] (-) TimerEvent: {}
+[0.700254] (-) TimerEvent: {}
+[0.801505] (-) TimerEvent: {}
+[0.911238] (-) TimerEvent: {}
+[1.053570] (-) TimerEvent: {}
+[1.117534] (lr_turtlebot_sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.153690] (-) TimerEvent: {}
+[1.254287] (-) TimerEvent: {}
+[1.355012] (-) TimerEvent: {}
+[1.459009] (-) TimerEvent: {}
+[1.559643] (-) TimerEvent: {}
+[1.660285] (-) TimerEvent: {}
+[1.760989] (-) TimerEvent: {}
+[1.861832] (-) TimerEvent: {}
+[1.963207] (-) TimerEvent: {}
+[2.063966] (-) TimerEvent: {}
+[2.164679] (-) TimerEvent: {}
+[2.265520] (-) TimerEvent: {}
+[2.366150] (-) TimerEvent: {}
+[2.466802] (-) TimerEvent: {}
+[2.567541] (-) TimerEvent: {}
+[2.652456] (lr_turtlebot_sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.667772] (-) TimerEvent: {}
+[2.768743] (-) TimerEvent: {}
+[2.869624] (-) TimerEvent: {}
+[2.970618] (-) TimerEvent: {}
+[3.072653] (-) TimerEvent: {}
+[3.173304] (-) TimerEvent: {}
+[3.274105] (-) TimerEvent: {}
+[3.375113] (-) TimerEvent: {}
+[3.477097] (-) TimerEvent: {}
+[3.577835] (-) TimerEvent: {}
+[3.678415] (-) TimerEvent: {}
+[3.781424] (-) TimerEvent: {}
+[3.882040] (-) TimerEvent: {}
+[3.940530] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.982155] (-) TimerEvent: {}
+[4.082769] (-) TimerEvent: {}
+[4.183469] (-) TimerEvent: {}
+[4.284413] (-) TimerEvent: {}
+[4.385665] (-) TimerEvent: {}
+[4.487168] (-) TimerEvent: {}
+[4.587973] (-) TimerEvent: {}
+[4.688534] (-) TimerEvent: {}
+[4.789280] (-) TimerEvent: {}
+[4.890347] (-) TimerEvent: {}
+[4.990913] (-) TimerEvent: {}
+[5.091480] (-) TimerEvent: {}
+[5.193981] (-) TimerEvent: {}
+[5.294812] (-) TimerEvent: {}
+[5.395609] (-) TimerEvent: {}
+[5.496146] (-) TimerEvent: {}
+[5.596604] (-) TimerEvent: {}
+[5.622320] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.674441] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.675500] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.676801] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.696740] (-) TimerEvent: {}
+[5.797370] (-) TimerEvent: {}
+[5.897982] (-) TimerEvent: {}
+[5.933877] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.998128] (-) TimerEvent: {}
+[6.099052] (-) TimerEvent: {}
+[6.200696] (-) TimerEvent: {}
+[6.302700] (-) TimerEvent: {}
+[6.404005] (-) TimerEvent: {}
+[6.504830] (-) TimerEvent: {}
+[6.605495] (-) TimerEvent: {}
+[6.706094] (-) TimerEvent: {}
+[6.806828] (-) TimerEvent: {}
+[6.907873] (-) TimerEvent: {}
+[7.008431] (-) TimerEvent: {}
+[7.109030] (-) TimerEvent: {}
+[7.209799] (-) TimerEvent: {}
+[7.310422] (-) TimerEvent: {}
+[7.411489] (-) TimerEvent: {}
+[7.506539] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.511794] (-) TimerEvent: {}
+[7.571128] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.572487] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.574004] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.612052] (-) TimerEvent: {}
+[7.712922] (-) TimerEvent: {}
+[7.725147] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[7.813201] (-) TimerEvent: {}
+[7.914043] (-) TimerEvent: {}
+[8.014692] (-) TimerEvent: {}
+[8.115291] (-) TimerEvent: {}
+[8.215880] (-) TimerEvent: {}
+[8.317091] (-) TimerEvent: {}
+[8.418569] (-) TimerEvent: {}
+[8.519162] (-) TimerEvent: {}
+[8.623916] (-) TimerEvent: {}
+[8.724554] (-) TimerEvent: {}
+[8.825181] (-) TimerEvent: {}
+[8.925723] (-) TimerEvent: {}
+[9.026234] (-) TimerEvent: {}
+[9.127007] (-) TimerEvent: {}
+[9.227865] (-) TimerEvent: {}
+[9.328885] (-) TimerEvent: {}
+[9.429874] (-) TimerEvent: {}
+[9.531159] (-) TimerEvent: {}
+[9.634902] (-) TimerEvent: {}
+[9.735840] (-) TimerEvent: {}
+[9.832291] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[9.836021] (-) TimerEvent: {}
+[9.936534] (-) TimerEvent: {}
+[10.037457] (-) TimerEvent: {}
+[10.138518] (-) TimerEvent: {}
+[10.239213] (-) TimerEvent: {}
+[10.340397] (-) TimerEvent: {}
+[10.441425] (-) TimerEvent: {}
+[10.541974] (-) TimerEvent: {}
+[10.643318] (-) TimerEvent: {}
+[10.743910] (-) TimerEvent: {}
+[10.844704] (-) TimerEvent: {}
+[10.946291] (-) TimerEvent: {}
+[10.971440] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found ros_gz_sim: 1.0.16 (/opt/ros/jazzy/share/ros_gz_sim/cmake)\n'}
+[11.046375] (-) TimerEvent: {}
+[11.147052] (-) TimerEvent: {}
+[11.247775] (-) TimerEvent: {}
+[11.351131] (-) TimerEvent: {}
+[11.451666] (-) TimerEvent: {}
+[11.552487] (-) TimerEvent: {}
+[11.653085] (-) TimerEvent: {}
+[11.753584] (-) TimerEvent: {}
+[11.837333] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[11.853721] (-) TimerEvent: {}
+[11.954382] (-) TimerEvent: {}
+[12.013458] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[12.054554] (-) TimerEvent: {}
+[12.155358] (-) TimerEvent: {}
+[12.204617] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.255461] (-) TimerEvent: {}
+[12.356124] (-) TimerEvent: {}
+[12.423488] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.456285] (-) TimerEvent: {}
+[12.556806] (-) TimerEvent: {}
+[12.657695] (-) TimerEvent: {}
+[12.758406] (-) TimerEvent: {}
+[12.859238] (-) TimerEvent: {}
+[12.960561] (-) TimerEvent: {}
+[13.063152] (-) TimerEvent: {}
+[13.164678] (-) TimerEvent: {}
+[13.186226] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[13.245440] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[13.264985] (-) TimerEvent: {}
+[13.365807] (-) TimerEvent: {}
+[13.466385] (-) TimerEvent: {}
+[13.567229] (-) TimerEvent: {}
+[13.668373] (-) TimerEvent: {}
+[13.769544] (-) TimerEvent: {}
+[13.870235] (-) TimerEvent: {}
+[13.909140] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[13.970338] (-) TimerEvent: {}
+[14.071392] (-) TimerEvent: {}
+[14.172025] (-) TimerEvent: {}
+[14.272751] (-) TimerEvent: {}
+[14.333812] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[14.372968] (-) TimerEvent: {}
+[14.473637] (-) TimerEvent: {}
+[14.575325] (-) TimerEvent: {}
+[14.580197] (lr_turtlebot_sim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[14.675428] (-) TimerEvent: {}
+[14.776433] (-) TimerEvent: {}
+[14.877126] (-) TimerEvent: {}
+[14.977771] (-) TimerEvent: {}
+[15.078245] (-) TimerEvent: {}
+[15.179084] (-) TimerEvent: {}
+[15.282753] (-) TimerEvent: {}
+[15.384560] (-) TimerEvent: {}
+[15.486099] (-) TimerEvent: {}
+[15.586760] (-) TimerEvent: {}
+[15.687523] (-) TimerEvent: {}
+[15.788219] (-) TimerEvent: {}
+[15.889459] (-) TimerEvent: {}
+[15.990376] (-) TimerEvent: {}
+[16.091289] (-) TimerEvent: {}
+[16.191832] (-) TimerEvent: {}
+[16.292753] (-) TimerEvent: {}
+[16.393584] (-) TimerEvent: {}
+[16.430159] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[16.493716] (-) TimerEvent: {}
+[16.530134] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[16.593834] (-) TimerEvent: {}
+[16.625158] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found gz_math_vendor: 0.0.8 (/opt/ros/jazzy/share/gz_math_vendor/cmake)\n'}
+[16.694055] (-) TimerEvent: {}
+[16.794669] (-) TimerEvent: {}
+[16.829439] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[16.890737] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[16.894950] (-) TimerEvent: {}
+[16.948064] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[16.951737] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[16.995125] (-) TimerEvent: {}
+[17.002493] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found gz_sim_vendor: 0.0.9 (/opt/ros/jazzy/share/gz_sim_vendor/cmake)\n'}
+[17.095375] (-) TimerEvent: {}
+[17.196171] (-) TimerEvent: {}
+[17.296843] (-) TimerEvent: {}
+[17.397625] (-) TimerEvent: {}
+[17.498197] (-) TimerEvent: {}
+[17.599827] (-) TimerEvent: {}
+[17.701946] (-) TimerEvent: {}
+[17.802983] (-) TimerEvent: {}
+[17.904018] (-) TimerEvent: {}
+[17.950985] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sim8 -- found version 8.10.0\n'}
+[17.952536] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sim8\n'}
+[17.999224] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.8.0\n'}
+[18.000676] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of sdformat14\n'}
+[18.004174] (-) TimerEvent: {}
+[18.013469] (lr_turtlebot_sim) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[18.087084] (lr_turtlebot_sim) StdoutLine: {'line': b'--   Found tinyxml2, version 10.0.0\n'}
+[18.104342] (-) TimerEvent: {}
+[18.146741] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[18.150032] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[18.151308] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[18.152506] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-utils2> component [cli]\n'}
+[18.201210] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-utils2-cli -- found version 2.2.1\n'}
+[18.203677] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2-cli\n'}
+[18.204779] (-) TimerEvent: {}
+[18.249793] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[18.251628] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[18.254576] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[18.259124] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [loader]\n'}
+[18.305159] (-) TimerEvent: {}
+[18.307329] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-plugin2-loader -- found version 2.0.4\n'}
+[18.308573] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-loader\n'}
+[18.310011] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [register]\n'}
+[18.360689] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-plugin2-register -- found version 2.0.4\n'}
+[18.362843] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-register\n'}
+[18.403623] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[18.404975] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13\n'}
+[18.406135] (-) TimerEvent: {}
+[18.506755] (-) TimerEvent: {}
+[18.607694] (-) TimerEvent: {}
+[18.708472] (-) TimerEvent: {}
+[18.809168] (-) TimerEvent: {}
+[18.909974] (-) TimerEvent: {}
+[19.010981] (-) TimerEvent: {}
+[19.112481] (-) TimerEvent: {}
+[19.213095] (-) TimerEvent: {}
+[19.313968] (-) TimerEvent: {}
+[19.414556] (-) TimerEvent: {}
+[19.515051] (-) TimerEvent: {}
+[19.615553] (-) TimerEvent: {}
+[19.716177] (-) TimerEvent: {}
+[19.816894] (-) TimerEvent: {}
+[19.917683] (-) TimerEvent: {}
+[20.018525] (-) TimerEvent: {}
+[20.119448] (-) TimerEvent: {}
+[20.220424] (-) TimerEvent: {}
+[20.341927] (-) TimerEvent: {}
+[20.442668] (-) TimerEvent: {}
+[20.543404] (-) TimerEvent: {}
+[20.644579] (-) TimerEvent: {}
+[20.745863] (-) TimerEvent: {}
+[20.846612] (-) TimerEvent: {}
+[20.947177] (-) TimerEvent: {}
+[21.047867] (-) TimerEvent: {}
+[21.148878] (-) TimerEvent: {}
+[21.249427] (-) TimerEvent: {}
+[21.355244] (-) TimerEvent: {}
+[21.455918] (-) TimerEvent: {}
+[21.556465] (-) TimerEvent: {}
+[21.656972] (-) TimerEvent: {}
+[21.757877] (-) TimerEvent: {}
+[21.858673] (-) TimerEvent: {}
+[21.959531] (-) TimerEvent: {}
+[22.062270] (-) TimerEvent: {}
+[22.162894] (-) TimerEvent: {}
+[22.264468] (-) TimerEvent: {}
+[22.365270] (-) TimerEvent: {}
+[22.466232] (-) TimerEvent: {}
+[22.568625] (-) TimerEvent: {}
+[22.669437] (-) TimerEvent: {}
+[22.722748] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") \n'}
+[22.769778] (-) TimerEvent: {}
+[22.870338] (-) TimerEvent: {}
+[22.970890] (-) TimerEvent: {}
+[23.071380] (-) TimerEvent: {}
+[23.171964] (-) TimerEvent: {}
+[23.272525] (-) TimerEvent: {}
+[23.373092] (-) TimerEvent: {}
+[23.473777] (-) TimerEvent: {}
+[23.574394] (-) TimerEvent: {}
+[23.675065] (-) TimerEvent: {}
+[23.775839] (-) TimerEvent: {}
+[23.876357] (-) TimerEvent: {}
+[23.977095] (-) TimerEvent: {}
+[24.078019] (-) TimerEvent: {}
+[24.178641] (-) TimerEvent: {}
+[24.279246] (-) TimerEvent: {}
+[24.379768] (-) TimerEvent: {}
+[24.480470] (-) TimerEvent: {}
+[24.581346] (-) TimerEvent: {}
+[24.603183] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[24.611926] (lr_turtlebot_sim) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[24.672732] (lr_turtlebot_sim) StdoutLine: {'line': b'--   Found libzmq, version 4.3.5\n'}
+[24.681519] (-) TimerEvent: {}
+[24.757979] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[24.781842] (-) TimerEvent: {}
+[24.873604] (lr_turtlebot_sim) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[24.882067] (-) TimerEvent: {}
+[24.940418] (lr_turtlebot_sim) StdoutLine: {'line': b'--   Found uuid, version 2.39.3\n'}
+[24.982267] (-) TimerEvent: {}
+[24.983267] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[24.986385] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[25.038643] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[25.040513] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-msgs10\n'}
+[25.082367] (-) TimerEvent: {}
+[25.183010] (-) TimerEvent: {}
+[25.284884] (-) TimerEvent: {}
+[25.385977] (-) TimerEvent: {}
+[25.486525] (-) TimerEvent: {}
+[25.587064] (-) TimerEvent: {}
+[25.687811] (-) TimerEvent: {}
+[25.791088] (-) TimerEvent: {}
+[25.892138] (-) TimerEvent: {}
+[25.992944] (-) TimerEvent: {}
+[26.093611] (-) TimerEvent: {}
+[26.194366] (-) TimerEvent: {}
+[26.295010] (-) TimerEvent: {}
+[26.395791] (-) TimerEvent: {}
+[26.496396] (-) TimerEvent: {}
+[26.596941] (-) TimerEvent: {}
+[26.698506] (-) TimerEvent: {}
+[26.799472] (-) TimerEvent: {}
+[26.899994] (-) TimerEvent: {}
+[27.000889] (-) TimerEvent: {}
+[27.097491] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[27.101015] (-) TimerEvent: {}
+[27.101478] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[27.125875] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [log]\n'}
+[27.163242] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-transport13-log -- found version 13.5.0\n'}
+[27.164614] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-log\n'}
+[27.165625] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [parameters]\n'}
+[27.201102] (-) TimerEvent: {}
+[27.204973] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-transport13-parameters -- found version 13.5.0\n'}
+[27.206481] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-parameters\n'}
+[27.210949] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[27.258722] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[27.260789] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[27.262619] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[27.301259] (-) TimerEvent: {}
+[27.346111] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[27.401345] (-) TimerEvent: {}
+[27.418516] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[27.421130] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[27.437498] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-common5> component [av]\n'}
+[27.478925] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-common5-av -- found version 5.7.1\n'}
+[27.480160] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-av\n'}
+[27.492925] (lr_turtlebot_sim) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[27.501492] (-) TimerEvent: {}
+[27.556579] (lr_turtlebot_sim) StdoutLine: {'line': b'--   Found libswscale, version 7.5.100\n'}
+[27.601612] (-) TimerEvent: {}
+[27.613912] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found SWSCALE: TRUE  \n'}
+[27.647205] (lr_turtlebot_sim) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[27.701797] (-) TimerEvent: {}
+[27.731379] (lr_turtlebot_sim) StdoutLine: {'line': b'--   Found libavdevice, version 60.3.100\n'}
+[27.801986] (-) TimerEvent: {}
+[27.804483] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found AVDEVICE: TRUE (Required is at least version "56.4.100") \n'}
+[27.822237] (lr_turtlebot_sim) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[27.872032] (lr_turtlebot_sim) StdoutLine: {'line': b'--   Found libavformat, version 60.16.100\n'}
+[27.902150] (-) TimerEvent: {}
+[27.921359] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found AVFORMAT: TRUE  \n'}
+[27.933363] (lr_turtlebot_sim) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[27.991412] (lr_turtlebot_sim) StdoutLine: {'line': b'--   Found libavcodec, version 60.31.102\n'}
+[28.002288] (-) TimerEvent: {}
+[28.049357] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found AVCODEC: TRUE  \n'}
+[28.064138] (lr_turtlebot_sim) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[28.102367] (-) TimerEvent: {}
+[28.113873] (lr_turtlebot_sim) StdoutLine: {'line': b'--   Found libavutil, version 58.29.100\n'}
+[28.159916] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found AVUTIL: TRUE  \n'}
+[28.165475] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[28.202643] (-) TimerEvent: {}
+[28.210428] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-common5-events -- found version 5.7.1\n'}
+[28.216708] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-events\n'}
+[28.223128] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[28.225702] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[28.269212] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-common5-graphics -- found version 5.7.1\n'}
+[28.270846] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-graphics\n'}
+[28.272419] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[28.302831] (-) TimerEvent: {}
+[28.325760] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found GzAssimp: TRUE (found version "5.3.0") \n'}
+[28.327375] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-common5> component [io]\n'}
+[28.372387] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-common5-io -- found version 5.7.1\n'}
+[28.374093] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-io\n'}
+[28.375968] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-common5> component [profiler]\n'}
+[28.402908] (-) TimerEvent: {}
+[28.428814] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-common5-profiler -- found version 5.7.1\n'}
+[28.431094] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-profiler\n'}
+[28.483583] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-fuel_tools9 -- found version 9.1.1\n'}
+[28.484809] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-fuel_tools9\n'}
+[28.502993] (-) TimerEvent: {}
+[28.603651] (-) TimerEvent: {}
+[28.704358] (-) TimerEvent: {}
+[28.805286] (-) TimerEvent: {}
+[28.906175] (-) TimerEvent: {}
+[29.006648] (-) TimerEvent: {}
+[29.107357] (-) TimerEvent: {}
+[29.208118] (-) TimerEvent: {}
+[29.308736] (-) TimerEvent: {}
+[29.409455] (-) TimerEvent: {}
+[29.510319] (-) TimerEvent: {}
+[29.611011] (-) TimerEvent: {}
+[29.711596] (-) TimerEvent: {}
+[29.812381] (-) TimerEvent: {}
+[29.912975] (-) TimerEvent: {}
+[30.013665] (-) TimerEvent: {}
+[30.114303] (-) TimerEvent: {}
+[30.214958] (-) TimerEvent: {}
+[30.315466] (-) TimerEvent: {}
+[30.416333] (-) TimerEvent: {}
+[30.518666] (-) TimerEvent: {}
+[30.620142] (-) TimerEvent: {}
+[30.720840] (-) TimerEvent: {}
+[30.793295] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "8.5.0")  \n'}
+[30.820970] (-) TimerEvent: {}
+[30.858360] (lr_turtlebot_sim) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[30.912424] (lr_turtlebot_sim) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[30.921067] (-) TimerEvent: {}
+[30.960047] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[31.021214] (-) TimerEvent: {}
+[31.122079] (-) TimerEvent: {}
+[31.222913] (-) TimerEvent: {}
+[31.324418] (-) TimerEvent: {}
+[31.425749] (-) TimerEvent: {}
+[31.526779] (-) TimerEvent: {}
+[31.630268] (-) TimerEvent: {}
+[31.730862] (-) TimerEvent: {}
+[31.831982] (-) TimerEvent: {}
+[31.932665] (-) TimerEvent: {}
+[32.033490] (-) TimerEvent: {}
+[32.134424] (-) TimerEvent: {}
+[32.235353] (-) TimerEvent: {}
+[32.336163] (-) TimerEvent: {}
+[32.436907] (-) TimerEvent: {}
+[32.537754] (-) TimerEvent: {}
+[32.638873] (-) TimerEvent: {}
+[32.739652] (-) TimerEvent: {}
+[32.840466] (-) TimerEvent: {}
+[32.941079] (-) TimerEvent: {}
+[32.993737] (lr_turtlebot_sim) StdoutLine: {'line': b"-- Checking for module 'yaml-0.1'\n"}
+[33.041279] (-) TimerEvent: {}
+[33.052634] (lr_turtlebot_sim) StdoutLine: {'line': b'--   Found yaml-0.1, version 0.2.5\n'}
+[33.108187] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found YAML: TRUE  \n'}
+[33.131875] (lr_turtlebot_sim) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[33.141459] (-) TimerEvent: {}
+[33.203725] (lr_turtlebot_sim) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[33.241578] (-) TimerEvent: {}
+[33.259183] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[33.266584] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[33.273739] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[33.276461] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[33.278248] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[33.280358] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[33.281424] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[33.297648] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-common5> component [testing]\n'}
+[33.341729] (-) TimerEvent: {}
+[33.352574] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-common5-testing -- found version 5.7.1\n'}
+[33.354409] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-testing\n'}
+[33.363793] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[33.369097] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[33.420338] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-gui8 -- found version 8.4.0\n'}
+[33.425138] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-gui8\n'}
+[33.441853] (-) TimerEvent: {}
+[33.542554] (-) TimerEvent: {}
+[33.644386] (-) TimerEvent: {}
+[33.745675] (-) TimerEvent: {}
+[33.846758] (-) TimerEvent: {}
+[33.947401] (-) TimerEvent: {}
+[34.048078] (-) TimerEvent: {}
+[34.149445] (-) TimerEvent: {}
+[34.250357] (-) TimerEvent: {}
+[34.351127] (-) TimerEvent: {}
+[34.452031] (-) TimerEvent: {}
+[34.552658] (-) TimerEvent: {}
+[34.653313] (-) TimerEvent: {}
+[34.753827] (-) TimerEvent: {}
+[34.858934] (-) TimerEvent: {}
+[34.959862] (-) TimerEvent: {}
+[35.062002] (-) TimerEvent: {}
+[35.162723] (-) TimerEvent: {}
+[35.263362] (-) TimerEvent: {}
+[35.363943] (-) TimerEvent: {}
+[35.454716] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[35.457775] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[35.460451] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[35.463211] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[35.474264] (-) TimerEvent: {}
+[35.477459] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[35.551797] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.2\n'}
+[35.553884] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-rendering8\n'}
+[35.555343] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[35.557724] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[35.562981] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[35.565333] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-math7> component [eigen3]\n'}
+[35.574423] (-) TimerEvent: {}
+[35.628958] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-math7-eigen3 -- found version 7.5.2\n'}
+[35.632614] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7-eigen3\n'}
+[35.674766] (-) TimerEvent: {}
+[35.688945] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[35.690566] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[35.692086] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[35.695553] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[35.696667] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[35.712453] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[35.714181] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[35.716181] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-common5> component [geospatial]\n'}
+[35.758812] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-common5-geospatial -- found version 5.7.1\n'}
+[35.760062] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-geospatial\n'}
+[35.761943] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[35.764756] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[35.768851] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[35.773260] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[35.774855] (-) TimerEvent: {}
+[35.775233] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[35.776232] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [all]\n'}
+[35.823562] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for all libraries of gz-plugin2 -- found version 2.0.4\n'}
+[35.827439] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[35.831470] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[35.875102] (-) TimerEvent: {}
+[35.975664] (-) TimerEvent: {}
+[36.076234] (-) TimerEvent: {}
+[36.176988] (-) TimerEvent: {}
+[36.277722] (-) TimerEvent: {}
+[36.378649] (-) TimerEvent: {}
+[36.481292] (-) TimerEvent: {}
+[36.581994] (-) TimerEvent: {}
+[36.682842] (-) TimerEvent: {}
+[36.783388] (-) TimerEvent: {}
+[36.883980] (-) TimerEvent: {}
+[36.984529] (-) TimerEvent: {}
+[37.085109] (-) TimerEvent: {}
+[37.185816] (-) TimerEvent: {}
+[37.207407] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL \n'}
+[37.214613] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[37.285960] (-) TimerEvent: {}
+[37.387371] (-) TimerEvent: {}
+[37.488226] (-) TimerEvent: {}
+[37.589670] (-) TimerEvent: {}
+[37.691420] (-) TimerEvent: {}
+[37.792172] (-) TimerEvent: {}
+[37.892813] (-) TimerEvent: {}
+[37.993490] (-) TimerEvent: {}
+[38.023528] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-physics7 -- found version 7.6.0\n'}
+[38.025283] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7\n'}
+[38.026912] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[38.030371] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[38.034826] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[38.038759] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[38.046253] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [heightmap]\n'}
+[38.093627] (-) TimerEvent: {}
+[38.110938] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-physics7-heightmap -- found version 7.6.0\n'}
+[38.113160] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-heightmap\n'}
+[38.116090] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[38.117873] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [mesh]\n'}
+[38.162185] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-physics7-mesh -- found version 7.6.0\n'}
+[38.163477] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-mesh\n'}
+[38.164960] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[38.166112] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [sdf]\n'}
+[38.193787] (-) TimerEvent: {}
+[38.208476] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-physics7-sdf -- found version 7.6.0\n'}
+[38.211571] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-sdf\n'}
+[38.213917] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.8.0\n'}
+[38.266207] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[38.267886] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[38.294192] (-) TimerEvent: {}
+[38.395180] (-) TimerEvent: {}
+[38.495929] (-) TimerEvent: {}
+[38.596665] (-) TimerEvent: {}
+[38.697275] (-) TimerEvent: {}
+[38.797828] (-) TimerEvent: {}
+[38.898425] (-) TimerEvent: {}
+[39.002889] (-) TimerEvent: {}
+[39.103439] (-) TimerEvent: {}
+[39.204021] (-) TimerEvent: {}
+[39.306457] (-) TimerEvent: {}
+[39.407178] (-) TimerEvent: {}
+[39.507823] (-) TimerEvent: {}
+[39.608431] (-) TimerEvent: {}
+[39.709021] (-) TimerEvent: {}
+[39.809836] (-) TimerEvent: {}
+[39.910363] (-) TimerEvent: {}
+[40.010891] (-) TimerEvent: {}
+[40.111380] (-) TimerEvent: {}
+[40.211862] (-) TimerEvent: {}
+[40.266195] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[40.272360] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[40.276233] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[40.279684] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.2\n'}
+[40.283390] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[40.287869] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.8.0\n'}
+[40.292039] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_pressure]\n'}
+[40.311994] (-) TimerEvent: {}
+[40.344341] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_pressure -- found version 8.2.2\n'}
+[40.346892] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_pressure\n'}
+[40.348387] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_speed]\n'}
+[40.395138] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_speed -- found version 8.2.2\n'}
+[40.396428] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_speed\n'}
+[40.397259] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [altimeter]\n'}
+[40.412130] (-) TimerEvent: {}
+[40.449457] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-altimeter -- found version 8.2.2\n'}
+[40.450896] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-altimeter\n'}
+[40.452013] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [imu]\n'}
+[40.500235] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-imu -- found version 8.2.2\n'}
+[40.502991] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-imu\n'}
+[40.504833] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [force_torque]\n'}
+[40.512239] (-) TimerEvent: {}
+[40.553007] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-force_torque -- found version 8.2.2\n'}
+[40.555511] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-force_torque\n'}
+[40.556761] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [logical_camera]\n'}
+[40.602990] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-logical_camera -- found version 8.2.2\n'}
+[40.604412] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-logical_camera\n'}
+[40.605587] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [magnetometer]\n'}
+[40.612423] (-) TimerEvent: {}
+[40.652041] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-magnetometer -- found version 8.2.2\n'}
+[40.653666] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-magnetometer\n'}
+[40.656921] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [navsat]\n'}
+[40.700614] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-navsat -- found version 8.2.2\n'}
+[40.701896] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-navsat\n'}
+[40.702885] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [dvl]\n'}
+[40.712604] (-) TimerEvent: {}
+[40.755959] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-dvl -- found version 8.2.2\n'}
+[40.757338] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-dvl\n'}
+[40.758969] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[40.760368] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[40.812750] (-) TimerEvent: {}
+[40.913366] (-) TimerEvent: {}
+[41.014386] (-) TimerEvent: {}
+[41.115244] (-) TimerEvent: {}
+[41.216022] (-) TimerEvent: {}
+[41.317643] (-) TimerEvent: {}
+[41.418363] (-) TimerEvent: {}
+[41.519150] (-) TimerEvent: {}
+[41.619862] (-) TimerEvent: {}
+[41.720411] (-) TimerEvent: {}
+[41.822778] (-) TimerEvent: {}
+[41.923408] (-) TimerEvent: {}
+[42.024114] (-) TimerEvent: {}
+[42.125289] (-) TimerEvent: {}
+[42.228588] (-) TimerEvent: {}
+[42.329552] (-) TimerEvent: {}
+[42.431174] (-) TimerEvent: {}
+[42.531946] (-) TimerEvent: {}
+[42.632603] (-) TimerEvent: {}
+[42.733355] (-) TimerEvent: {}
+[42.818214] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[42.822002] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[42.825091] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[42.828868] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.2\n'}
+[42.831749] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[42.833425] (-) TimerEvent: {}
+[42.835155] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.8.0\n'}
+[42.836425] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[42.889148] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-rendering -- found version 8.2.2\n'}
+[42.890466] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rendering\n'}
+[42.891791] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[42.892932] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [lidar]\n'}
+[42.933651] (-) TimerEvent: {}
+[42.952505] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-lidar -- found version 8.2.2\n'}
+[42.955162] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-lidar\n'}
+[42.956849] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[42.959783] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [gpu_lidar]\n'}
+[43.004774] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2\n'}
+[43.005925] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-gpu_lidar\n'}
+[43.010950] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[43.012797] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [camera]\n'}
+[43.033778] (-) TimerEvent: {}
+[43.069875] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-camera -- found version 8.2.2\n'}
+[43.071125] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-camera\n'}
+[43.072778] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[43.074827] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [boundingbox_camera]\n'}
+[43.121022] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2\n'}
+[43.122556] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-boundingbox_camera\n'}
+[43.123970] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [segmentation_camera]\n'}
+[43.133917] (-) TimerEvent: {}
+[43.166044] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2\n'}
+[43.168085] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-segmentation_camera\n'}
+[43.172177] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [depth_camera]\n'}
+[43.214233] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-depth_camera -- found version 8.2.2\n'}
+[43.216322] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-depth_camera\n'}
+[43.219055] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[43.221044] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rgbd_camera]\n'}
+[43.234076] (-) TimerEvent: {}
+[43.268692] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2\n'}
+[43.270208] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rgbd_camera\n'}
+[43.271992] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[43.273899] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [thermal_camera]\n'}
+[43.318373] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-thermal_camera -- found version 8.2.2\n'}
+[43.320181] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-thermal_camera\n'}
+[43.322873] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[43.325266] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [wide_angle_camera]\n'}
+[43.334204] (-) TimerEvent: {}
+[43.378563] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2\n'}
+[43.379716] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-wide_angle_camera\n'}
+[43.383416] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.2\n'}
+[43.385949] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[43.388545] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[43.434433] (-) TimerEvent: {}
+[43.535074] (-) TimerEvent: {}
+[43.635743] (-) TimerEvent: {}
+[43.736838] (-) TimerEvent: {}
+[43.837654] (-) TimerEvent: {}
+[43.938233] (-) TimerEvent: {}
+[44.039495] (-) TimerEvent: {}
+[44.139981] (-) TimerEvent: {}
+[44.242132] (-) TimerEvent: {}
+[44.342802] (-) TimerEvent: {}
+[44.443514] (-) TimerEvent: {}
+[44.544668] (-) TimerEvent: {}
+[44.645259] (-) TimerEvent: {}
+[44.746064] (-) TimerEvent: {}
+[44.847591] (-) TimerEvent: {}
+[44.948110] (-) TimerEvent: {}
+[45.048886] (-) TimerEvent: {}
+[45.149619] (-) TimerEvent: {}
+[45.250658] (-) TimerEvent: {}
+[45.351377] (-) TimerEvent: {}
+[45.363142] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[45.448581] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[45.451496] (-) TimerEvent: {}
+[45.552276] (-) TimerEvent: {}
+[45.653561] (-) TimerEvent: {}
+[45.754216] (-) TimerEvent: {}
+[45.854901] (-) TimerEvent: {}
+[45.955465] (-) TimerEvent: {}
+[46.056410] (-) TimerEvent: {}
+[46.157620] (-) TimerEvent: {}
+[46.258549] (-) TimerEvent: {}
+[46.289466] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Configuring done (46.1s)\n'}
+[46.358659] (-) TimerEvent: {}
+[46.459461] (-) TimerEvent: {}
+[46.564241] (-) TimerEvent: {}
+[46.670348] (-) TimerEvent: {}
+[46.770914] (-) TimerEvent: {}
+[46.873556] (-) TimerEvent: {}
+[46.974854] (-) TimerEvent: {}
+[47.076157] (-) TimerEvent: {}
+[47.164363] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Generating done (0.8s)\n'}
+[47.176301] (-) TimerEvent: {}
+[47.277071] (-) TimerEvent: {}
+[47.378054] (-) TimerEvent: {}
+[47.479068] (-) TimerEvent: {}
+[47.579779] (-) TimerEvent: {}
+[47.635703] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Build files have been written to: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim\n'}
+[47.668051] (lr_turtlebot_sim) CommandEnded: {'returncode': 0}
+[47.676572] (lr_turtlebot_sim) JobProgress: {'identifier': 'lr_turtlebot_sim', 'progress': 'build'}
+[47.679849] (-) TimerEvent: {}
+[47.685036] (lr_turtlebot_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim', '--', '-j20', '-l20'], 'cwd': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'azizmasseoudi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/azizmasseoudi/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/azizmasseoudi', 'OLDPWD': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1', 'TERM_PROGRAM_VERSION': '1.108.2', 'NVM_BIN': '/home/azizmasseoudi/.nvm/versions/node/v20.17.0/bin', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-7e5b7d79-c5e8-493e-8cee-1a4091e479fc.sock', 'NVM_INC': '/home/azizmasseoudi/.nvm/versions/node/v20.17.0/include/node', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/azizmasseoudi/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/azizmasseoudi/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'NVM_DIR': '/home/azizmasseoudi/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'azizmasseoudi', 'NAME': 'DESKTOP-DH8NA02', 'WSL_INTEROP': '/run/WSL/627_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'CLAUDE_CODE_SSE_PORT': '29140', 'TERM': 'xterm-256color', 'HISTCONTROL': 'ignorespace', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/azizmasseoudi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/azizmasseoudi/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/azizmasseoudi/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/home/azizmasseoudi/.local/bin:/home/azizmasseoudi/.nvm/versions/node/v20.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/DELL/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/DELL/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/Scripts:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/DELL/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/mnt/c/Users/DELL/AppData/Local/Android/Sdk/tools/bin:/mnt/c/Users/DELL/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Users/DELL/AppData/Local/Android/Sdk/emulator:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/DELL/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/DELL/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/DELL/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/DELL/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/DELL/AppData/Roaming/npm:/mnt/c/ffmpeg/bin:/mnt/c/Users/DELL/AppData/Local/Programs/Ollama:/mnt/c/Users/DELL/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-469ff7b2ca.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo:/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'PWD': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo:/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[47.780360] (-) TimerEvent: {}
+[47.881152] (-) TimerEvent: {}
+[47.953743] (lr_turtlebot_sim) CommandEnded: {'returncode': 0}
+[47.981555] (-) TimerEvent: {}
+[47.997426] (lr_turtlebot_sim) JobProgress: {'identifier': 'lr_turtlebot_sim', 'progress': 'install'}
+[48.028910] (lr_turtlebot_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim'], 'cwd': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'azizmasseoudi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/azizmasseoudi/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/azizmasseoudi', 'OLDPWD': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1', 'TERM_PROGRAM_VERSION': '1.108.2', 'NVM_BIN': '/home/azizmasseoudi/.nvm/versions/node/v20.17.0/bin', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-7e5b7d79-c5e8-493e-8cee-1a4091e479fc.sock', 'NVM_INC': '/home/azizmasseoudi/.nvm/versions/node/v20.17.0/include/node', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/azizmasseoudi/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/azizmasseoudi/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'NVM_DIR': '/home/azizmasseoudi/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'azizmasseoudi', 'NAME': 'DESKTOP-DH8NA02', 'WSL_INTEROP': '/run/WSL/627_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'CLAUDE_CODE_SSE_PORT': '29140', 'TERM': 'xterm-256color', 'HISTCONTROL': 'ignorespace', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/azizmasseoudi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/azizmasseoudi/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/azizmasseoudi/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/home/azizmasseoudi/.local/bin:/home/azizmasseoudi/.nvm/versions/node/v20.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/DELL/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/DELL/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/Scripts:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/DELL/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/mnt/c/Users/DELL/AppData/Local/Android/Sdk/tools/bin:/mnt/c/Users/DELL/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Users/DELL/AppData/Local/Android/Sdk/emulator:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/DELL/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/DELL/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/DELL/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/DELL/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/DELL/AppData/Roaming/npm:/mnt/c/ffmpeg/bin:/mnt/c/Users/DELL/AppData/Local/Programs/Ollama:/mnt/c/Users/DELL/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-469ff7b2ca.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo:/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'PWD': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_turtlebot_sim', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo:/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[48.055787] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[48.063922] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//launch\n'}
+[48.081563] (-) TimerEvent: {}
+[48.120886] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//launch/maze_1.launch.py\n'}
+[48.181719] (-) TimerEvent: {}
+[48.282682] (-) TimerEvent: {}
+[48.310995] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//launch/maze_2.launch.py\n'}
+[48.382807] (-) TimerEvent: {}
+[48.483550] (-) TimerEvent: {}
+[48.506322] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//launch/maze_3.launch.py\n'}
+[48.583681] (-) TimerEvent: {}
+[48.684442] (-) TimerEvent: {}
+[48.726150] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//launch/robot_state_publisher.launch.py\n'}
+[48.784572] (-) TimerEvent: {}
+[48.885935] (-) TimerEvent: {}
+[48.938579] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//launch/spawn_turtlebot3.launch.py\n'}
+[48.986110] (-) TimerEvent: {}
+[49.086839] (-) TimerEvent: {}
+[49.093425] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//launch/turtlebot_in_maze.launch.py\n'}
+[49.187029] (-) TimerEvent: {}
+[49.255322] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models\n'}
+[49.287242] (-) TimerEvent: {}
+[49.310032] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_burger\n'}
+[49.387602] (-) TimerEvent: {}
+[49.397324] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_burger/model-1_4.sdf\n'}
+[49.487713] (-) TimerEvent: {}
+[49.588422] (-) TimerEvent: {}
+[49.592858] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_burger/model.config\n'}
+[49.688528] (-) TimerEvent: {}
+[49.789225] (-) TimerEvent: {}
+[49.793339] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_burger/model.sdf\n'}
+[49.889347] (-) TimerEvent: {}
+[49.990118] (-) TimerEvent: {}
+[50.002974] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_burger_cam\n'}
+[50.090313] (-) TimerEvent: {}
+[50.106819] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_burger_cam/model-1_4.sdf\n'}
+[50.190500] (-) TimerEvent: {}
+[50.291145] (-) TimerEvent: {}
+[50.327130] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_burger_cam/model.config\n'}
+[50.391312] (-) TimerEvent: {}
+[50.492401] (-) TimerEvent: {}
+[50.523721] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_burger_cam/model.sdf\n'}
+[50.592559] (-) TimerEvent: {}
+[50.693250] (-) TimerEvent: {}
+[50.713662] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common\n'}
+[50.793427] (-) TimerEvent: {}
+[50.803587] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes\n'}
+[50.893577] (-) TimerEvent: {}
+[50.895252] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/bases\n'}
+[50.994154] (-) TimerEvent: {}
+[51.024886] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/bases/burger_base.stl\n'}
+[51.094289] (-) TimerEvent: {}
+[51.194859] (-) TimerEvent: {}
+[51.295482] (-) TimerEvent: {}
+[51.403635] (-) TimerEvent: {}
+[51.509847] (-) TimerEvent: {}
+[51.610848] (-) TimerEvent: {}
+[51.664196] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/bases/waffle_base.stl\n'}
+[51.710940] (-) TimerEvent: {}
+[51.811701] (-) TimerEvent: {}
+[51.912394] (-) TimerEvent: {}
+[52.013587] (-) TimerEvent: {}
+[52.114724] (-) TimerEvent: {}
+[52.215750] (-) TimerEvent: {}
+[52.316340] (-) TimerEvent: {}
+[52.417295] (-) TimerEvent: {}
+[52.518203] (-) TimerEvent: {}
+[52.619368] (-) TimerEvent: {}
+[52.720169] (-) TimerEvent: {}
+[52.821630] (-) TimerEvent: {}
+[52.922511] (-) TimerEvent: {}
+[53.023624] (-) TimerEvent: {}
+[53.124353] (-) TimerEvent: {}
+[53.225159] (-) TimerEvent: {}
+[53.325816] (-) TimerEvent: {}
+[53.426376] (-) TimerEvent: {}
+[53.526921] (-) TimerEvent: {}
+[53.576403] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/bases/waffle_pi_base.stl\n'}
+[53.626973] (-) TimerEvent: {}
+[53.727793] (-) TimerEvent: {}
+[53.830136] (-) TimerEvent: {}
+[53.930810] (-) TimerEvent: {}
+[54.031630] (-) TimerEvent: {}
+[54.132204] (-) TimerEvent: {}
+[54.232846] (-) TimerEvent: {}
+[54.333608] (-) TimerEvent: {}
+[54.435639] (-) TimerEvent: {}
+[54.536458] (-) TimerEvent: {}
+[54.636909] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/burger_base.dae\n'}
+[54.637986] (-) TimerEvent: {}
+[54.739847] (-) TimerEvent: {}
+[54.841018] (-) TimerEvent: {}
+[54.859989] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/lds.dae\n'}
+[54.941227] (-) TimerEvent: {}
+[55.043132] (-) TimerEvent: {}
+[55.088877] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/r200.dae\n'}
+[55.143290] (-) TimerEvent: {}
+[55.244104] (-) TimerEvent: {}
+[55.318872] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/sensors\n'}
+[55.344181] (-) TimerEvent: {}
+[55.433542] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/sensors/astra.dae\n'}
+[55.444375] (-) TimerEvent: {}
+[55.544934] (-) TimerEvent: {}
+[55.645816] (-) TimerEvent: {}
+[55.746972] (-) TimerEvent: {}
+[55.853142] (-) TimerEvent: {}
+[55.955084] (-) TimerEvent: {}
+[56.055766] (-) TimerEvent: {}
+[56.156420] (-) TimerEvent: {}
+[56.256952] (-) TimerEvent: {}
+[56.357912] (-) TimerEvent: {}
+[56.452852] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/sensors/astra.jpg\n'}
+[56.458055] (-) TimerEvent: {}
+[56.562628] (-) TimerEvent: {}
+[56.663350] (-) TimerEvent: {}
+[56.741077] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/sensors/lds.stl\n'}
+[56.763451] (-) TimerEvent: {}
+[56.864097] (-) TimerEvent: {}
+[56.964627] (-) TimerEvent: {}
+[57.065538] (-) TimerEvent: {}
+[57.096419] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/sensors/r200.dae\n'}
+[57.165710] (-) TimerEvent: {}
+[57.268301] (-) TimerEvent: {}
+[57.369129] (-) TimerEvent: {}
+[57.470014] (-) TimerEvent: {}
+[57.522903] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/sensors/r200.jpg\n'}
+[57.570203] (-) TimerEvent: {}
+[57.670917] (-) TimerEvent: {}
+[57.772416] (-) TimerEvent: {}
+[57.801420] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/tire.dae\n'}
+[57.872575] (-) TimerEvent: {}
+[57.974053] (-) TimerEvent: {}
+[58.054130] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/waffle_base.dae\n'}
+[58.074183] (-) TimerEvent: {}
+[58.174862] (-) TimerEvent: {}
+[58.275535] (-) TimerEvent: {}
+[58.304181] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/waffle_pi_base.dae\n'}
+[58.375717] (-) TimerEvent: {}
+[58.476335] (-) TimerEvent: {}
+[58.558369] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/wheels\n'}
+[58.576475] (-) TimerEvent: {}
+[58.677190] (-) TimerEvent: {}
+[58.712858] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/wheels/left_tire.stl\n'}
+[58.778130] (-) TimerEvent: {}
+[58.878917] (-) TimerEvent: {}
+[58.979894] (-) TimerEvent: {}
+[59.018250] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/meshes/wheels/right_tire.stl\n'}
+[59.080138] (-) TimerEvent: {}
+[59.181234] (-) TimerEvent: {}
+[59.283582] (-) TimerEvent: {}
+[59.359077] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//models/turtlebot3_common/model.config\n'}
+[59.383738] (-) TimerEvent: {}
+[59.484723] (-) TimerEvent: {}
+[59.587128] (-) TimerEvent: {}
+[59.624380] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//urdf\n'}
+[59.680501] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//urdf/common_properties.urdf\n'}
+[59.687297] (-) TimerEvent: {}
+[59.791186] (-) TimerEvent: {}
+[59.852293] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//urdf/turtlebot3_burger.urdf\n'}
+[59.891347] (-) TimerEvent: {}
+[59.975643] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//urdf/turtlebot3_burger_cam.urdf\n'}
+[59.991547] (-) TimerEvent: {}
+[60.093029] (-) TimerEvent: {}
+[60.120239] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//params\n'}
+[60.179806] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//params/burger.yaml\n'}
+[60.193127] (-) TimerEvent: {}
+[60.293699] (-) TimerEvent: {}
+[60.327485] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//params/turtlebot3_burger_bridge.yaml\n'}
+[60.393818] (-) TimerEvent: {}
+[60.471072] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//params/turtlebot3_burger_cam_bridge.yaml\n'}
+[60.493951] (-) TimerEvent: {}
+[60.594992] (-) TimerEvent: {}
+[60.643470] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//rviz\n'}
+[60.695267] (-) TimerEvent: {}
+[60.704764] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//rviz/tb3_gazebo.rviz\n'}
+[60.795534] (-) TimerEvent: {}
+[60.864460] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//scripts\n'}
+[60.895847] (-) TimerEvent: {}
+[60.923883] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//scripts/teleop_keyboard.py\n'}
+[60.996087] (-) TimerEvent: {}
+[61.096933] (-) TimerEvent: {}
+[61.108651] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//scripts/__init__.py\n'}
+[61.197605] (-) TimerEvent: {}
+[61.261441] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//worlds\n'}
+[61.297544] (-) TimerEvent: {}
+[61.328774] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//worlds/maze_1.world\n'}
+[61.397671] (-) TimerEvent: {}
+[61.466043] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//worlds/maze_2.world\n'}
+[61.497798] (-) TimerEvent: {}
+[61.598427] (-) TimerEvent: {}
+[61.616429] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim//worlds/maze_3.world\n'}
+[61.698583] (-) TimerEvent: {}
+[61.799311] (-) TimerEvent: {}
+[61.825066] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/lib/lr_turtlebot_sim/teleop_keyboard.py\n'}
+[61.899459] (-) TimerEvent: {}
+[62.000355] (-) TimerEvent: {}
+[62.001694] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/ament_index/resource_index/package_run_dependencies/lr_turtlebot_sim\n'}
+[62.100554] (-) TimerEvent: {}
+[62.201091] (-) TimerEvent: {}
+[62.219401] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/ament_index/resource_index/parent_prefix_path/lr_turtlebot_sim\n'}
+[62.301351] (-) TimerEvent: {}
+[62.390857] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim/environment/ament_prefix_path.sh\n'}
+[62.401466] (-) TimerEvent: {}
+[62.502190] (-) TimerEvent: {}
+[62.506223] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim/environment/ament_prefix_path.dsv\n'}
+[62.602339] (-) TimerEvent: {}
+[62.638017] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim/environment/path.sh\n'}
+[62.702602] (-) TimerEvent: {}
+[62.806471] (-) TimerEvent: {}
+[62.814851] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim/environment/path.dsv\n'}
+[62.906566] (-) TimerEvent: {}
+[62.953914] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim/local_setup.bash\n'}
+[63.006687] (-) TimerEvent: {}
+[63.082662] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim/local_setup.sh\n'}
+[63.106819] (-) TimerEvent: {}
+[63.207601] (-) TimerEvent: {}
+[63.225373] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim/local_setup.zsh\n'}
+[63.308109] (-) TimerEvent: {}
+[63.366072] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim/local_setup.dsv\n'}
+[63.408659] (-) TimerEvent: {}
+[63.498388] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim/package.dsv\n'}
+[63.510606] (-) TimerEvent: {}
+[63.613057] (-) TimerEvent: {}
+[63.694630] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/ament_index/resource_index/packages/lr_turtlebot_sim\n'}
+[63.713186] (-) TimerEvent: {}
+[63.814103] (-) TimerEvent: {}
+[63.895306] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim/cmake/lr_turtlebot_simConfig.cmake\n'}
+[63.914231] (-) TimerEvent: {}
+[64.015208] (-) TimerEvent: {}
+[64.039444] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim/cmake/lr_turtlebot_simConfig-version.cmake\n'}
+[64.116034] (-) TimerEvent: {}
+[64.208753] (lr_turtlebot_sim) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim/share/lr_turtlebot_sim/package.xml\n'}
+[64.216185] (-) TimerEvent: {}
+[64.310674] (lr_turtlebot_sim) CommandEnded: {'returncode': 0}
+[64.316332] (-) TimerEvent: {}
+[64.416965] (-) TimerEvent: {}
+[64.517513] (-) TimerEvent: {}
+[64.618591] (-) TimerEvent: {}
+[64.720063] (-) TimerEvent: {}
+[64.820848] (-) TimerEvent: {}
+[64.923044] (-) TimerEvent: {}
+[65.024331] (-) TimerEvent: {}
+[65.125731] (-) TimerEvent: {}
+[65.226399] (-) TimerEvent: {}
+[65.327069] (-) TimerEvent: {}
+[65.427623] (-) TimerEvent: {}
+[65.528346] (-) TimerEvent: {}
+[65.629022] (-) TimerEvent: {}
+[65.729975] (-) TimerEvent: {}
+[65.831955] (-) TimerEvent: {}
+[65.932331] (lr_turtlebot_sim) JobEnded: {'identifier': 'lr_turtlebot_sim', 'rc': 0}
+[65.967066] (-) TimerEvent: {}
+[65.967442] (lr_ppo) JobStarted: {'identifier': 'lr_ppo'}
+[66.067283] (-) TimerEvent: {}
+[66.168516] (-) TimerEvent: {}
+[66.225349] (lr_ppo) JobProgress: {'identifier': 'lr_ppo', 'progress': 'cmake'}
+[66.268616] (-) TimerEvent: {}
+[66.310763] (lr_ppo) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/lr_ppo', '-DCMAKE_INSTALL_PREFIX=/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo'], 'cwd': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'azizmasseoudi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/azizmasseoudi/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/azizmasseoudi', 'OLDPWD': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1', 'TERM_PROGRAM_VERSION': '1.108.2', 'NVM_BIN': '/home/azizmasseoudi/.nvm/versions/node/v20.17.0/bin', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-7e5b7d79-c5e8-493e-8cee-1a4091e479fc.sock', 'NVM_INC': '/home/azizmasseoudi/.nvm/versions/node/v20.17.0/include/node', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/azizmasseoudi/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/azizmasseoudi/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'NVM_DIR': '/home/azizmasseoudi/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'azizmasseoudi', 'NAME': 'DESKTOP-DH8NA02', 'WSL_INTEROP': '/run/WSL/627_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'CLAUDE_CODE_SSE_PORT': '29140', 'TERM': 'xterm-256color', 'HISTCONTROL': 'ignorespace', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/azizmasseoudi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/azizmasseoudi/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/azizmasseoudi/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/home/azizmasseoudi/.local/bin:/home/azizmasseoudi/.nvm/versions/node/v20.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/DELL/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/DELL/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/Scripts:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/DELL/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/mnt/c/Users/DELL/AppData/Local/Android/Sdk/tools/bin:/mnt/c/Users/DELL/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Users/DELL/AppData/Local/Android/Sdk/emulator:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/DELL/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/DELL/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/DELL/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/DELL/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/DELL/AppData/Roaming/npm:/mnt/c/ffmpeg/bin:/mnt/c/Users/DELL/AppData/Local/Programs/Ollama:/mnt/c/Users/DELL/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-469ff7b2ca.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo:/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'PWD': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim:/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[66.368828] (-) TimerEvent: {}
+[66.469582] (-) TimerEvent: {}
+[66.570489] (-) TimerEvent: {}
+[66.672301] (-) TimerEvent: {}
+[66.775810] (-) TimerEvent: {}
+[66.877149] (-) TimerEvent: {}
+[66.982270] (-) TimerEvent: {}
+[67.083059] (-) TimerEvent: {}
+[67.183668] (-) TimerEvent: {}
+[67.284187] (-) TimerEvent: {}
+[67.352005] (lr_ppo) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[67.384361] (-) TimerEvent: {}
+[67.491568] (-) TimerEvent: {}
+[67.592167] (-) TimerEvent: {}
+[67.692707] (-) TimerEvent: {}
+[67.793581] (-) TimerEvent: {}
+[67.894440] (-) TimerEvent: {}
+[67.995771] (-) TimerEvent: {}
+[68.096528] (-) TimerEvent: {}
+[68.197060] (-) TimerEvent: {}
+[68.297596] (-) TimerEvent: {}
+[68.398546] (-) TimerEvent: {}
+[68.500375] (-) TimerEvent: {}
+[68.601806] (-) TimerEvent: {}
+[68.702545] (-) TimerEvent: {}
+[68.803243] (-) TimerEvent: {}
+[68.903823] (-) TimerEvent: {}
+[69.005279] (-) TimerEvent: {}
+[69.106526] (-) TimerEvent: {}
+[69.162131] (lr_ppo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[69.206695] (-) TimerEvent: {}
+[69.307426] (-) TimerEvent: {}
+[69.408318] (-) TimerEvent: {}
+[69.508859] (-) TimerEvent: {}
+[69.609454] (-) TimerEvent: {}
+[69.710349] (-) TimerEvent: {}
+[69.811076] (-) TimerEvent: {}
+[69.927037] (-) TimerEvent: {}
+[70.028066] (-) TimerEvent: {}
+[70.129516] (-) TimerEvent: {}
+[70.230504] (-) TimerEvent: {}
+[70.332181] (-) TimerEvent: {}
+[70.433121] (-) TimerEvent: {}
+[70.527857] (lr_ppo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[70.533231] (-) TimerEvent: {}
+[70.633860] (-) TimerEvent: {}
+[70.734336] (-) TimerEvent: {}
+[70.835126] (-) TimerEvent: {}
+[70.935929] (-) TimerEvent: {}
+[71.036996] (-) TimerEvent: {}
+[71.137614] (-) TimerEvent: {}
+[71.238162] (-) TimerEvent: {}
+[71.339326] (-) TimerEvent: {}
+[71.441326] (-) TimerEvent: {}
+[71.545444] (-) TimerEvent: {}
+[71.647656] (-) TimerEvent: {}
+[71.748358] (-) TimerEvent: {}
+[71.850478] (-) TimerEvent: {}
+[71.951439] (-) TimerEvent: {}
+[72.052236] (-) TimerEvent: {}
+[72.152850] (-) TimerEvent: {}
+[72.253548] (-) TimerEvent: {}
+[72.320501] (lr_ppo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[72.353666] (-) TimerEvent: {}
+[72.380917] (lr_ppo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[72.382299] (lr_ppo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[72.383264] (lr_ppo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[72.453845] (-) TimerEvent: {}
+[72.554782] (-) TimerEvent: {}
+[72.639828] (lr_ppo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[72.654922] (-) TimerEvent: {}
+[72.755808] (-) TimerEvent: {}
+[72.856633] (-) TimerEvent: {}
+[72.957417] (-) TimerEvent: {}
+[73.059348] (-) TimerEvent: {}
+[73.160179] (-) TimerEvent: {}
+[73.261642] (-) TimerEvent: {}
+[73.362956] (-) TimerEvent: {}
+[73.463566] (-) TimerEvent: {}
+[73.564309] (-) TimerEvent: {}
+[73.664914] (-) TimerEvent: {}
+[73.769747] (-) TimerEvent: {}
+[73.870974] (-) TimerEvent: {}
+[73.973299] (-) TimerEvent: {}
+[74.074160] (-) TimerEvent: {}
+[74.174945] (-) TimerEvent: {}
+[74.275956] (-) TimerEvent: {}
+[74.377445] (-) TimerEvent: {}
+[74.404943] (lr_ppo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[74.466398] (lr_ppo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[74.468877] (lr_ppo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[74.470380] (lr_ppo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[74.477677] (-) TimerEvent: {}
+[74.578421] (-) TimerEvent: {}
+[74.679091] (-) TimerEvent: {}
+[74.697672] (lr_ppo) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[74.779321] (-) TimerEvent: {}
+[74.880381] (-) TimerEvent: {}
+[74.982204] (-) TimerEvent: {}
+[75.083031] (-) TimerEvent: {}
+[75.185326] (-) TimerEvent: {}
+[75.287571] (-) TimerEvent: {}
+[75.388345] (-) TimerEvent: {}
+[75.488993] (-) TimerEvent: {}
+[75.590525] (-) TimerEvent: {}
+[75.691089] (-) TimerEvent: {}
+[75.791664] (-) TimerEvent: {}
+[75.892252] (-) TimerEvent: {}
+[75.993979] (-) TimerEvent: {}
+[76.095325] (-) TimerEvent: {}
+[76.198823] (-) TimerEvent: {}
+[76.300029] (-) TimerEvent: {}
+[76.401076] (-) TimerEvent: {}
+[76.502075] (-) TimerEvent: {}
+[76.602929] (-) TimerEvent: {}
+[76.703844] (-) TimerEvent: {}
+[76.806647] (-) TimerEvent: {}
+[76.907423] (-) TimerEvent: {}
+[77.008043] (-) TimerEvent: {}
+[77.108819] (-) TimerEvent: {}
+[77.212988] (-) TimerEvent: {}
+[77.313687] (-) TimerEvent: {}
+[77.414680] (-) TimerEvent: {}
+[77.484886] (lr_ppo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[77.514962] (-) TimerEvent: {}
+[77.615904] (-) TimerEvent: {}
+[77.716607] (-) TimerEvent: {}
+[77.818429] (-) TimerEvent: {}
+[77.919440] (-) TimerEvent: {}
+[78.020193] (-) TimerEvent: {}
+[78.120946] (-) TimerEvent: {}
+[78.221625] (-) TimerEvent: {}
+[78.322266] (-) TimerEvent: {}
+[78.422948] (-) TimerEvent: {}
+[78.525461] (-) TimerEvent: {}
+[78.626241] (-) TimerEvent: {}
+[78.726914] (-) TimerEvent: {}
+[78.827577] (-) TimerEvent: {}
+[78.928202] (-) TimerEvent: {}
+[79.029814] (-) TimerEvent: {}
+[79.130540] (-) TimerEvent: {}
+[79.231384] (-) TimerEvent: {}
+[79.332424] (-) TimerEvent: {}
+[79.433847] (-) TimerEvent: {}
+[79.535427] (-) TimerEvent: {}
+[79.636133] (-) TimerEvent: {}
+[79.690340] (lr_ppo) StdoutLine: {'line': b'-- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[79.736272] (-) TimerEvent: {}
+[79.820749] (lr_ppo) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[79.836413] (-) TimerEvent: {}
+[79.936991] (-) TimerEvent: {}
+[80.037927] (-) TimerEvent: {}
+[80.138714] (-) TimerEvent: {}
+[80.240168] (-) TimerEvent: {}
+[80.341656] (-) TimerEvent: {}
+[80.442583] (-) TimerEvent: {}
+[80.543313] (-) TimerEvent: {}
+[80.644208] (-) TimerEvent: {}
+[80.745848] (-) TimerEvent: {}
+[80.846425] (-) TimerEvent: {}
+[80.947241] (-) TimerEvent: {}
+[81.048958] (-) TimerEvent: {}
+[81.149575] (-) TimerEvent: {}
+[81.250362] (-) TimerEvent: {}
+[81.350933] (-) TimerEvent: {}
+[81.406983] (lr_ppo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[81.451101] (-) TimerEvent: {}
+[81.552150] (-) TimerEvent: {}
+[81.653244] (-) TimerEvent: {}
+[81.753811] (-) TimerEvent: {}
+[81.835160] (lr_ppo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[81.854056] (-) TimerEvent: {}
+[81.954945] (-) TimerEvent: {}
+[82.055667] (-) TimerEvent: {}
+[82.156301] (-) TimerEvent: {}
+[82.235983] (lr_ppo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[82.256431] (-) TimerEvent: {}
+[82.357235] (-) TimerEvent: {}
+[82.458898] (-) TimerEvent: {}
+[82.559786] (-) TimerEvent: {}
+[82.653977] (lr_ppo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[82.659912] (-) TimerEvent: {}
+[82.760525] (-) TimerEvent: {}
+[82.861237] (-) TimerEvent: {}
+[82.961994] (-) TimerEvent: {}
+[83.062829] (-) TimerEvent: {}
+[83.165150] (-) TimerEvent: {}
+[83.243201] (lr_ppo) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[83.265234] (-) TimerEvent: {}
+[83.366098] (-) TimerEvent: {}
+[83.466698] (-) TimerEvent: {}
+[83.524199] (lr_ppo) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[83.566968] (-) TimerEvent: {}
+[83.667923] (-) TimerEvent: {}
+[83.669760] (lr_ppo) StdoutLine: {'line': b'-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[83.768056] (-) TimerEvent: {}
+[83.870867] (-) TimerEvent: {}
+[83.971624] (-) TimerEvent: {}
+[84.072319] (-) TimerEvent: {}
+[84.173725] (-) TimerEvent: {}
+[84.274571] (-) TimerEvent: {}
+[84.318183] (lr_ppo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[84.374728] (-) TimerEvent: {}
+[84.475296] (-) TimerEvent: {}
+[84.576139] (-) TimerEvent: {}
+[84.677395] (-) TimerEvent: {}
+[84.777938] (-) TimerEvent: {}
+[84.878589] (-) TimerEvent: {}
+[84.981154] (-) TimerEvent: {}
+[85.081965] (-) TimerEvent: {}
+[85.182745] (-) TimerEvent: {}
+[85.283302] (-) TimerEvent: {}
+[85.384675] (-) TimerEvent: {}
+[85.485927] (-) TimerEvent: {}
+[85.588402] (-) TimerEvent: {}
+[85.690839] (-) TimerEvent: {}
+[85.792199] (-) TimerEvent: {}
+[85.893829] (-) TimerEvent: {}
+[85.994563] (-) TimerEvent: {}
+[86.022880] (lr_ppo) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[86.094706] (-) TimerEvent: {}
+[86.195372] (-) TimerEvent: {}
+[86.296467] (-) TimerEvent: {}
+[86.398724] (-) TimerEvent: {}
+[86.499638] (-) TimerEvent: {}
+[86.600275] (-) TimerEvent: {}
+[86.701071] (-) TimerEvent: {}
+[86.803126] (-) TimerEvent: {}
+[86.904162] (-) TimerEvent: {}
+[87.005285] (-) TimerEvent: {}
+[87.106564] (-) TimerEvent: {}
+[87.207199] (-) TimerEvent: {}
+[87.308113] (-) TimerEvent: {}
+[87.408828] (-) TimerEvent: {}
+[87.509555] (-) TimerEvent: {}
+[87.610116] (-) TimerEvent: {}
+[87.710802] (-) TimerEvent: {}
+[87.811886] (-) TimerEvent: {}
+[87.912470] (-) TimerEvent: {}
+[88.013202] (-) TimerEvent: {}
+[88.113982] (-) TimerEvent: {}
+[88.214509] (-) TimerEvent: {}
+[88.315426] (-) TimerEvent: {}
+[88.416079] (-) TimerEvent: {}
+[88.516955] (-) TimerEvent: {}
+[88.561160] (lr_ppo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[88.562295] (lr_ppo) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[88.617122] (-) TimerEvent: {}
+[88.717870] (-) TimerEvent: {}
+[88.819578] (-) TimerEvent: {}
+[88.861533] (lr_ppo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[88.919676] (-) TimerEvent: {}
+[89.020265] (-) TimerEvent: {}
+[89.036050] (lr_ppo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[89.120379] (-) TimerEvent: {}
+[89.221119] (-) TimerEvent: {}
+[89.321830] (-) TimerEvent: {}
+[89.422381] (-) TimerEvent: {}
+[89.523906] (-) TimerEvent: {}
+[89.624517] (-) TimerEvent: {}
+[89.725279] (-) TimerEvent: {}
+[89.827891] (-) TimerEvent: {}
+[89.929064] (-) TimerEvent: {}
+[90.029815] (-) TimerEvent: {}
+[90.130733] (-) TimerEvent: {}
+[90.231290] (-) TimerEvent: {}
+[90.332152] (-) TimerEvent: {}
+[90.433422] (-) TimerEvent: {}
+[90.534000] (-) TimerEvent: {}
+[90.625894] (lr_ppo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[90.634226] (-) TimerEvent: {}
+[90.735196] (-) TimerEvent: {}
+[90.836849] (-) TimerEvent: {}
+[90.922744] (lr_ppo) StdoutLine: {'line': b'-- Configuring done (24.5s)\n'}
+[90.936976] (-) TimerEvent: {}
+[91.037854] (-) TimerEvent: {}
+[91.138594] (-) TimerEvent: {}
+[91.239233] (-) TimerEvent: {}
+[91.340685] (-) TimerEvent: {}
+[91.441374] (-) TimerEvent: {}
+[91.541842] (-) TimerEvent: {}
+[91.642570] (-) TimerEvent: {}
+[91.744275] (-) TimerEvent: {}
+[91.810829] (lr_ppo) StdoutLine: {'line': b'-- Generating done (0.7s)\n'}
+[91.844437] (-) TimerEvent: {}
+[91.945221] (-) TimerEvent: {}
+[92.048367] (-) TimerEvent: {}
+[92.149093] (-) TimerEvent: {}
+[92.249886] (-) TimerEvent: {}
+[92.351257] (-) TimerEvent: {}
+[92.357704] (lr_ppo) StdoutLine: {'line': b'-- Build files have been written to: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo\n'}
+[92.370639] (lr_ppo) CommandEnded: {'returncode': 0}
+[92.382026] (lr_ppo) JobProgress: {'identifier': 'lr_ppo', 'progress': 'build'}
+[92.391412] (lr_ppo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo', '--', '-j20', '-l20'], 'cwd': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'azizmasseoudi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/azizmasseoudi/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/azizmasseoudi', 'OLDPWD': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1', 'TERM_PROGRAM_VERSION': '1.108.2', 'NVM_BIN': '/home/azizmasseoudi/.nvm/versions/node/v20.17.0/bin', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-7e5b7d79-c5e8-493e-8cee-1a4091e479fc.sock', 'NVM_INC': '/home/azizmasseoudi/.nvm/versions/node/v20.17.0/include/node', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/azizmasseoudi/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/azizmasseoudi/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'NVM_DIR': '/home/azizmasseoudi/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'azizmasseoudi', 'NAME': 'DESKTOP-DH8NA02', 'WSL_INTEROP': '/run/WSL/627_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'CLAUDE_CODE_SSE_PORT': '29140', 'TERM': 'xterm-256color', 'HISTCONTROL': 'ignorespace', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/azizmasseoudi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/azizmasseoudi/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/azizmasseoudi/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/home/azizmasseoudi/.local/bin:/home/azizmasseoudi/.nvm/versions/node/v20.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/DELL/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/DELL/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/Scripts:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/DELL/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/mnt/c/Users/DELL/AppData/Local/Android/Sdk/tools/bin:/mnt/c/Users/DELL/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Users/DELL/AppData/Local/Android/Sdk/emulator:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/DELL/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/DELL/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/DELL/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/DELL/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/DELL/AppData/Roaming/npm:/mnt/c/ffmpeg/bin:/mnt/c/Users/DELL/AppData/Local/Programs/Ollama:/mnt/c/Users/DELL/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-469ff7b2ca.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo:/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'PWD': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim:/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[92.451392] (-) TimerEvent: {}
+[92.552456] (-) TimerEvent: {}
+[92.691145] (-) TimerEvent: {}
+[92.791766] (-) TimerEvent: {}
+[92.892255] (-) TimerEvent: {}
+[92.992910] (-) TimerEvent: {}
+[93.094005] (-) TimerEvent: {}
+[93.194689] (-) TimerEvent: {}
+[93.233937] (lr_ppo) StdoutLine: {'line': b'Built target ament_cmake_python_copy_lr_ppo\n'}
+[93.295013] (-) TimerEvent: {}
+[93.395946] (-) TimerEvent: {}
+[93.496509] (-) TimerEvent: {}
+[93.598446] (-) TimerEvent: {}
+[93.699888] (-) TimerEvent: {}
+[93.701652] (lr_ppo) StdoutLine: {'line': b'running egg_info\n'}
+[93.703540] (lr_ppo) StdoutLine: {'line': b'creating lr_ppo.egg-info\n'}
+[93.741516] (lr_ppo) StdoutLine: {'line': b'writing lr_ppo.egg-info/PKG-INFO\n'}
+[93.750355] (lr_ppo) StdoutLine: {'line': b'writing dependency_links to lr_ppo.egg-info/dependency_links.txt\n'}
+[93.759845] (lr_ppo) StdoutLine: {'line': b'writing top-level names to lr_ppo.egg-info/top_level.txt\n'}
+[93.766668] (lr_ppo) StdoutLine: {'line': b"writing manifest file 'lr_ppo.egg-info/SOURCES.txt'\n"}
+[93.812146] (-) TimerEvent: {}
+[93.916708] (-) TimerEvent: {}
+[93.917729] (lr_ppo) StdoutLine: {'line': b"reading manifest file 'lr_ppo.egg-info/SOURCES.txt'\n"}
+[93.978440] (lr_ppo) StdoutLine: {'line': b"writing manifest file 'lr_ppo.egg-info/SOURCES.txt'\n"}
+[94.016933] (-) TimerEvent: {}
+[94.050384] (lr_ppo) StdoutLine: {'line': b'Built target ament_cmake_python_build_lr_ppo_egg\n'}
+[94.070581] (lr_ppo) CommandEnded: {'returncode': 0}
+[94.097728] (lr_ppo) JobProgress: {'identifier': 'lr_ppo', 'progress': 'install'}
+[94.113165] (lr_ppo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo'], 'cwd': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'azizmasseoudi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/azizmasseoudi/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/azizmasseoudi', 'OLDPWD': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1', 'TERM_PROGRAM_VERSION': '1.108.2', 'NVM_BIN': '/home/azizmasseoudi/.nvm/versions/node/v20.17.0/bin', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-7e5b7d79-c5e8-493e-8cee-1a4091e479fc.sock', 'NVM_INC': '/home/azizmasseoudi/.nvm/versions/node/v20.17.0/include/node', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/azizmasseoudi/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/azizmasseoudi/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'NVM_DIR': '/home/azizmasseoudi/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'azizmasseoudi', 'NAME': 'DESKTOP-DH8NA02', 'WSL_INTEROP': '/run/WSL/627_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'CLAUDE_CODE_SSE_PORT': '29140', 'TERM': 'xterm-256color', 'HISTCONTROL': 'ignorespace', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/azizmasseoudi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/azizmasseoudi/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/azizmasseoudi/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/home/azizmasseoudi/.local/bin:/home/azizmasseoudi/.nvm/versions/node/v20.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/DELL/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/DELL/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/Scripts:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/DELL/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/mnt/c/Users/DELL/AppData/Local/Android/Sdk/tools/bin:/mnt/c/Users/DELL/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Users/DELL/AppData/Local/Android/Sdk/emulator:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/DELL/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/DELL/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/DELL/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/DELL/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/DELL/AppData/Roaming/npm:/mnt/c/ffmpeg/bin:/mnt/c/Users/DELL/AppData/Local/Programs/Ollama:/mnt/c/Users/DELL/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-469ff7b2ca.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo:/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'PWD': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/build/lr_ppo', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_turtlebot_sim:/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[94.117738] (-) TimerEvent: {}
+[94.145859] (lr_ppo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[94.202922] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/environment/pythonpath.sh\n'}
+[94.217903] (-) TimerEvent: {}
+[94.318490] (-) TimerEvent: {}
+[94.357614] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/environment/pythonpath.dsv\n'}
+[94.418577] (-) TimerEvent: {}
+[94.478952] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo-1.0.0-py3.12.egg-info\n'}
+[94.518741] (-) TimerEvent: {}
+[94.557745] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo-1.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[94.619328] (-) TimerEvent: {}
+[94.722314] (-) TimerEvent: {}
+[94.741655] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo-1.0.0-py3.12.egg-info/PKG-INFO\n'}
+[94.822481] (-) TimerEvent: {}
+[94.923868] (-) TimerEvent: {}
+[94.931253] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo-1.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[95.024264] (-) TimerEvent: {}
+[95.125234] (-) TimerEvent: {}
+[95.162703] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo-1.0.0-py3.12.egg-info/top_level.txt\n'}
+[95.225534] (-) TimerEvent: {}
+[95.326362] (-) TimerEvent: {}
+[95.343865] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo\n'}
+[95.418108] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo/environment.py\n'}
+[95.426470] (-) TimerEvent: {}
+[95.527435] (-) TimerEvent: {}
+[95.588796] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo/networks.py\n'}
+[95.627577] (-) TimerEvent: {}
+[95.728531] (-) TimerEvent: {}
+[95.793413] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo/ppo_agent.py\n'}
+[95.828684] (-) TimerEvent: {}
+[95.929356] (-) TimerEvent: {}
+[95.981693] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo/utils.py\n'}
+[96.029517] (-) TimerEvent: {}
+[96.130103] (-) TimerEvent: {}
+[96.174310] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo/__init__.py\n'}
+[96.230241] (-) TimerEvent: {}
+[96.330821] (-) TimerEvent: {}
+[96.431874] (-) TimerEvent: {}
+[96.532582] (-) TimerEvent: {}
+[96.633199] (-) TimerEvent: {}
+[96.734702] (-) TimerEvent: {}
+[96.835568] (-) TimerEvent: {}
+[96.937205] (-) TimerEvent: {}
+[97.038800] (-) TimerEvent: {}
+[97.140470] (-) TimerEvent: {}
+[97.242396] (-) TimerEvent: {}
+[97.343682] (-) TimerEvent: {}
+[97.430730] (lr_ppo) StdoutLine: {'line': b"Listing '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo'...\n"}
+[97.432970] (lr_ppo) StdoutLine: {'line': b"Compiling '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo/__init__.py'...\n"}
+[97.434841] (lr_ppo) StdoutLine: {'line': b"Compiling '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo/environment.py'...\n"}
+[97.436125] (lr_ppo) StdoutLine: {'line': b"Compiling '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo/networks.py'...\n"}
+[97.437870] (lr_ppo) StdoutLine: {'line': b"Compiling '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo/ppo_agent.py'...\n"}
+[97.438978] (lr_ppo) StdoutLine: {'line': b"Compiling '/mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/python3.12/site-packages/lr_ppo/utils.py'...\n"}
+[97.443801] (-) TimerEvent: {}
+[97.482771] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/lr_ppo/train_rosi.py\n'}
+[97.543976] (-) TimerEvent: {}
+[97.620696] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/lr_ppo/evaluate_rosi.py\n'}
+[97.644146] (-) TimerEvent: {}
+[97.744738] (-) TimerEvent: {}
+[97.765318] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/lib/lr_ppo/test_environment.py\n'}
+[97.844881] (-) TimerEvent: {}
+[97.907474] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/launch\n'}
+[97.945037] (-) TimerEvent: {}
+[97.979493] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/launch/evaluate.launch.py\n'}
+[98.045227] (-) TimerEvent: {}
+[98.148756] (-) TimerEvent: {}
+[98.161617] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/launch/train.launch.py\n'}
+[98.248958] (-) TimerEvent: {}
+[98.313124] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/config\n'}
+[98.349156] (-) TimerEvent: {}
+[98.380655] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/config/training_config.yaml\n'}
+[98.449413] (-) TimerEvent: {}
+[98.526572] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/models\n'}
+[98.549593] (-) TimerEvent: {}
+[98.590136] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/models/README.md\n'}
+[98.649726] (-) TimerEvent: {}
+[98.750296] (-) TimerEvent: {}
+[98.792178] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/ament_index/resource_index/package_run_dependencies/lr_ppo\n'}
+[98.850504] (-) TimerEvent: {}
+[98.951463] (-) TimerEvent: {}
+[99.052298] (-) TimerEvent: {}
+[99.068289] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/ament_index/resource_index/parent_prefix_path/lr_ppo\n'}
+[99.152499] (-) TimerEvent: {}
+[99.253249] (-) TimerEvent: {}
+[99.260664] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/environment/ament_prefix_path.sh\n'}
+[99.353362] (-) TimerEvent: {}
+[99.387272] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/environment/ament_prefix_path.dsv\n'}
+[99.453473] (-) TimerEvent: {}
+[99.523354] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/environment/path.sh\n'}
+[99.553596] (-) TimerEvent: {}
+[99.648293] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/environment/path.dsv\n'}
+[99.653882] (-) TimerEvent: {}
+[99.755324] (-) TimerEvent: {}
+[99.777883] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/local_setup.bash\n'}
+[99.855470] (-) TimerEvent: {}
+[99.910428] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/local_setup.sh\n'}
+[99.955619] (-) TimerEvent: {}
+[100.032204] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/local_setup.zsh\n'}
+[100.055840] (-) TimerEvent: {}
+[100.149874] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/local_setup.dsv\n'}
+[100.155993] (-) TimerEvent: {}
+[100.256811] (-) TimerEvent: {}
+[100.264845] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/package.dsv\n'}
+[100.356968] (-) TimerEvent: {}
+[100.428633] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/ament_index/resource_index/packages/lr_ppo\n'}
+[100.457250] (-) TimerEvent: {}
+[100.558067] (-) TimerEvent: {}
+[100.641149] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/cmake/lr_ppoConfig.cmake\n'}
+[100.658549] (-) TimerEvent: {}
+[100.760490] (-) TimerEvent: {}
+[100.781745] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/cmake/lr_ppoConfig-version.cmake\n'}
+[100.860668] (-) TimerEvent: {}
+[100.921589] (lr_ppo) StdoutLine: {'line': b'-- Installing: /mnt/c/users/dell/Desktop/lr_turtlebot_sim1/install/lr_ppo/share/lr_ppo/package.xml\n'}
+[100.960790] (-) TimerEvent: {}
+[101.037484] (lr_ppo) CommandEnded: {'returncode': 0}
+[101.061215] (-) TimerEvent: {}
+[101.161984] (-) TimerEvent: {}
+[101.263151] (-) TimerEvent: {}
+[101.363667] (-) TimerEvent: {}
+[101.464496] (-) TimerEvent: {}
+[101.564943] (-) TimerEvent: {}
+[101.665638] (-) TimerEvent: {}
+[101.766431] (-) TimerEvent: {}
+[101.867685] (-) TimerEvent: {}
+[101.968549] (-) TimerEvent: {}
+[102.069352] (-) TimerEvent: {}
+[102.170512] (-) TimerEvent: {}
+[102.271093] (-) TimerEvent: {}
+[102.372992] (-) TimerEvent: {}
+[102.473791] (-) TimerEvent: {}
+[102.574345] (-) TimerEvent: {}
+[102.675875] (-) TimerEvent: {}
+[102.776616] (-) TimerEvent: {}
+[102.869169] (lr_ppo) JobEnded: {'identifier': 'lr_ppo', 'rc': 0}
+[102.904236] (-) TimerEvent: {}
+[102.904887] (-) EventReactorShutdown: {}

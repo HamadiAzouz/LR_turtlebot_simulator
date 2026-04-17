@@ -1,0 +1,3 @@
+source;share/lr_ppo/environment/ament_prefix_path.sh
+source;share/lr_ppo/environment/path.sh
+source;share/lr_ppo/environment/pythonpath.sh

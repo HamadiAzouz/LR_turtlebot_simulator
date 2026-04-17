@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>lr_turtlebot_sim</name>
+  <version>0.0.0</version>
+  <description>Simulation and spawn setup for ROSI (TurtleBot3 Burger) in maze worlds.</description>
+  <maintainer email="amar.halilovic@uni-ulm.de">Amar Halilovic</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>launch</depend>
+  <depend>launch_ros</depend>
+
+  <depend>robot_state_publisher</depend>
+  <depend>xacro</depend>
+
+  <depend>ros_gz_bridge</depend>
+  <depend>ros_gz_image</depend>
+  <depend>ros_gz_sim</depend>
+
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>sensor_msgs</depend>
+
+  <member_of_group>ros_gz</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
